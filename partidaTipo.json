@@ -1,0 +1,906 @@
+
+{
+	"activePlayer": {
+		"abilities": {
+			"E": {
+				"abilityLevel": 0,
+				"displayName": "Lacerar",
+				"id": "AmbessaE",
+				"rawDescription": "GeneratedTip_Spell_AmbessaE_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AmbessaE_DisplayName"
+			},
+			"Passive": {
+				"displayName": "Paso de Dragarto",
+				"id": "AmbessaPassive",
+				"rawDescription": "GeneratedTip_Passive_AmbessaPassive_Description",
+				"rawDisplayName": "GeneratedTip_Passive_AmbessaPassive_DisplayName"
+			},
+			"Q": {
+				"abilityLevel": 1,
+				"displayName": "Barrido Astuto | Azote Desgarrador",
+				"id": "AmbessaQ",
+				"rawDescription": "GeneratedTip_Spell_AmbessaQ_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AmbessaQ_DisplayName"
+			},
+			"R": {
+				"abilityLevel": 0,
+				"displayName": "Ejecución Pública",
+				"id": "AmbessaR",
+				"rawDescription": "GeneratedTip_Spell_AmbessaR_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AmbessaR_DisplayName"
+			},
+			"W": {
+				"abilityLevel": 0,
+				"displayName": "Repudio",
+				"id": "AmbessaW",
+				"rawDescription": "GeneratedTip_Spell_AmbessaW_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AmbessaW_DisplayName"
+			}
+		},
+		"championStats": {
+			"abilityHaste": 0.0,
+			"abilityPower": 0.0,
+			"armor": 35.0,
+			"armorPenetrationFlat": 0.0,
+			"armorPenetrationPercent": 1.0,
+			"attackDamage": 73.80000305175781,
+			"attackRange": 125.0,
+			"attackSpeed": 0.625,
+			"bonusArmorPenetrationPercent": 1.0,
+			"bonusMagicPenetrationPercent": 1.0,
+			"critChance": 0.0,
+			"critDamage": 200.0,
+			"currentHealth": 805.0,
+			"healShieldPower": 0.0,
+			"healthRegenRate": 2.5,
+			"lifeSteal": 0.0,
+			"magicLethality": 0.0,
+			"magicPenetrationFlat": 0.0,
+			"magicPenetrationPercent": 1.0,
+			"magicResist": 32.0,
+			"maxHealth": 805.0,
+			"moveSpeed": 824.625,
+			"omnivamp": 0.0,
+			"physicalLethality": 0.0,
+			"physicalVamp": 0.0,
+			"resourceMax": 200.0,
+			"resourceRegenRate": 10.0,
+			"resourceType": "ENERGY",
+			"resourceValue": 200.0,
+			"spellVamp": 0.0,
+			"tenacity": 5.0
+		},
+		"currentGold": 0.0,
+		"fullRunes": {
+			"generalRunes": [
+				{
+					"displayName": "Agarre del Perpetuo",
+					"id": 8437,
+					"rawDescription": "perk_tooltip_GraspOfTheUndying",
+					"rawDisplayName": "perk_displayname_GraspOfTheUndying"
+				},
+				{
+					"displayName": "Golpe de Escudo",
+					"id": 8401,
+					"rawDescription": "perk_tooltip_ShieldBash",
+					"rawDisplayName": "perk_displayname_ShieldBash"
+				},
+				{
+					"displayName": "Segundo Aire",
+					"id": 8444,
+					"rawDescription": "perk_tooltip_SecondWind",
+					"rawDisplayName": "perk_displayname_SecondWind"
+				},
+				{
+					"displayName": "Crecimiento Excesivo",
+					"id": 8451,
+					"rawDescription": "perk_tooltip_Overgrowth",
+					"rawDisplayName": "perk_displayname_Overgrowth"
+				},
+				{
+					"displayName": "Entrega de Galletas",
+					"id": 8345,
+					"rawDescription": "perk_tooltip_BiscuitDelivery",
+					"rawDisplayName": "perk_displayname_BiscuitDelivery"
+				},
+				{
+					"displayName": "Calzado Mágico",
+					"id": 8304,
+					"rawDescription": "perk_tooltip_MagicalFootwear",
+					"rawDisplayName": "perk_displayname_MagicalFootwear"
+				}
+			],
+			"keystone": {
+				"displayName": "Agarre del Perpetuo",
+				"id": 8437,
+				"rawDescription": "perk_tooltip_GraspOfTheUndying",
+				"rawDisplayName": "perk_displayname_GraspOfTheUndying"
+			},
+			"primaryRuneTree": {
+				"displayName": "Valor",
+				"id": 8400,
+				"rawDescription": "perkstyle_tooltip_7204",
+				"rawDisplayName": "perkstyle_displayname_7204"
+			},
+			"secondaryRuneTree": {
+				"displayName": "Inspiración",
+				"id": 8300,
+				"rawDescription": "perkstyle_tooltip_7203",
+				"rawDisplayName": "perkstyle_displayname_7203"
+			},
+			"statRunes": [
+				{
+					"id": 5008,
+					"rawDescription": "perk_tooltip_StatModAdaptive"
+				},
+				{
+					"id": 5008,
+					"rawDescription": "perk_tooltip_StatModAdaptive"
+				},
+				{
+					"id": 5011,
+					"rawDescription": "perk_tooltip_StatModHealth"
+				}
+			]
+		},
+		"level": 1,
+		"riotId": "Dressy#Dress",
+		"riotIdGameName": "Dressy",
+		"riotIdTagLine": "Dress",
+		"summonerName": "Dressy#Dress",
+		"teamRelativeColors": true
+	},
+	"allPlayers": [
+		{
+			"championName": "Ambessa",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Escudo de Doran",
+					"itemID": 1054,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_1054_Description",
+					"rawDisplayName": "Item_1054_Name",
+					"slot": 0
+				},
+				{
+					"canUse": true,
+					"consumable": true,
+					"count": 1,
+					"displayName": "Poción de Vida",
+					"itemID": 2003,
+					"price": 50,
+					"rawDescription": "GeneratedTip_Item_2003_Description",
+					"rawDisplayName": "Item_2003_Name",
+					"slot": 1
+				}
+			],
+			"level": 1,
+			"position": "TOP",
+			"rawChampionName": "game_character_displayname_Ambessa",
+			"rawSkinName": "game_character_displayname_Ambessa",
+			"respawnTimer": 0.0,
+			"riotId": "Dressy#Dress",
+			"riotIdGameName": "Dressy",
+			"riotIdTagLine": "Dress",
+			"runes": {
+				"keystone": {
+					"displayName": "Agarre del Perpetuo",
+					"id": 8437,
+					"rawDescription": "perk_tooltip_GraspOfTheUndying",
+					"rawDisplayName": "perk_displayname_GraspOfTheUndying"
+				},
+				"primaryRuneTree": {
+					"displayName": "Valor",
+					"id": 8400,
+					"rawDescription": "perkstyle_tooltip_7204",
+					"rawDisplayName": "perkstyle_displayname_7204"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Inspiración",
+					"id": 8300,
+					"rawDescription": "perkstyle_tooltip_7203",
+					"rawDisplayName": "perkstyle_displayname_7203"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Ambessa",
+			"summonerName": "Dressy#Dress",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Teleportación",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerTeleport_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Mordekaiser",
+			"isBot": true,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": true,
+					"consumable": true,
+					"count": 1,
+					"displayName": "Centinela de Control",
+					"itemID": 2055,
+					"price": 75,
+					"rawDescription": "GeneratedTip_Item_2055_Description",
+					"rawDisplayName": "Item_2055_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Sortija de Doran",
+					"itemID": 1056,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_1056_Description",
+					"rawDisplayName": "Item_1056_Name",
+					"slot": 1
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 1,
+			"position": "TOP",
+			"rawChampionName": "game_character_displayname_Mordekaiser",
+			"rawSkinName": "game_character_displayname_Mordekaiser",
+			"respawnTimer": 0.0,
+			"riotId": "Mordekaiser#BOT",
+			"riotIdGameName": "Mordekaiser",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Cometa Arcano",
+					"id": 8229,
+					"rawDescription": "perk_tooltip_ArcaneComet",
+					"rawDisplayName": "perk_displayname_ArcaneComet"
+				},
+				"primaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Mordekaiser",
+			"summonerName": "Bot Mordekaiser",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Teleportación",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerTeleport_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Kennen",
+			"isBot": true,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Espada de Doran",
+					"itemID": 1055,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_1055_Description",
+					"rawDisplayName": "Item_1055_Name",
+					"slot": 0
+				},
+				{
+					"canUse": true,
+					"consumable": true,
+					"count": 1,
+					"displayName": "Poción de Vida",
+					"itemID": 2003,
+					"price": 50,
+					"rawDescription": "GeneratedTip_Item_2003_Description",
+					"rawDisplayName": "Item_2003_Name",
+					"slot": 1
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 1,
+			"position": "MIDDLE",
+			"rawChampionName": "game_character_displayname_Kennen",
+			"rawSkinName": "game_character_displayname_Kennen",
+			"respawnTimer": 0.0,
+			"riotId": "Kennen#BOT",
+			"riotIdGameName": "Kennen",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Cometa Arcano",
+					"id": 8229,
+					"rawDescription": "perk_tooltip_ArcaneComet",
+					"rawDisplayName": "perk_displayname_ArcaneComet"
+				},
+				"primaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Kennen",
+			"summonerName": "Bot Kennen",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Sona",
+			"isBot": true,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Mapamundi",
+					"itemID": 3865,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_3865_Description",
+					"rawDisplayName": "Item_3865_Name",
+					"slot": 0
+				},
+				{
+					"canUse": true,
+					"consumable": true,
+					"count": 2,
+					"displayName": "Poción de Vida",
+					"itemID": 2003,
+					"price": 50,
+					"rawDescription": "GeneratedTip_Item_2003_Description",
+					"rawDisplayName": "Item_2003_Name",
+					"slot": 1
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 1,
+			"position": "UTILITY",
+			"rawChampionName": "game_character_displayname_Sona",
+			"rawSkinName": "game_character_displayname_Sona",
+			"respawnTimer": 0.0,
+			"riotId": "Sona#BOT",
+			"riotIdGameName": "Sona",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Cometa Arcano",
+					"id": 8229,
+					"rawDescription": "perk_tooltip_ArcaneComet",
+					"rawDisplayName": "perk_displayname_ArcaneComet"
+				},
+				"primaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Sona",
+			"summonerName": "Bot Sona",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Curación",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerHeal_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHeal_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Lillia",
+			"isBot": true,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Cachorro de Rasgafuegos",
+					"itemID": 1101,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_1101_Description",
+					"rawDisplayName": "Item_1101_Name",
+					"slot": 0
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 1,
+			"position": "JUNGLE",
+			"rawChampionName": "game_character_displayname_Lillia",
+			"rawSkinName": "game_character_displayname_Lillia",
+			"respawnTimer": 0.0,
+			"riotId": "Lillia#BOT",
+			"riotIdGameName": "Lillia",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Electrocutar",
+					"id": 8112,
+					"rawDescription": "perk_tooltip_Electrocute",
+					"rawDisplayName": "perk_displayname_Electrocute"
+				},
+				"primaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Lillia",
+			"summonerName": "Bot Lillia",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Castigo",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerSmite_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Fizz",
+			"isBot": true,
+			"isDead": false,
+			"items": [],
+			"level": 1,
+			"position": "MIDDLE",
+			"rawChampionName": "game_character_displayname_Fizz",
+			"rawSkinName": "game_character_displayname_Fizz",
+			"respawnTimer": 0.0,
+			"riotId": "Fizz#BOT",
+			"riotIdGameName": "Fizz",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Electrocutar",
+					"id": 8112,
+					"rawDescription": "perk_tooltip_Electrocute",
+					"rawDisplayName": "perk_displayname_Electrocute"
+				},
+				"primaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Fizz",
+			"summonerName": "Bot Fizz",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Braum",
+			"isBot": true,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Mapamundi",
+					"itemID": 3865,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_3865_Description",
+					"rawDisplayName": "Item_3865_Name",
+					"slot": 0
+				}
+			],
+			"level": 1,
+			"position": "UTILITY",
+			"rawChampionName": "game_character_displayname_Braum",
+			"rawSkinName": "game_character_displayname_Braum",
+			"respawnTimer": 0.0,
+			"riotId": "Braum#BOT",
+			"riotIdGameName": "Braum",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Agarre del Perpetuo",
+					"id": 8437,
+					"rawDescription": "perk_tooltip_GraspOfTheUndying",
+					"rawDisplayName": "perk_displayname_GraspOfTheUndying"
+				},
+				"primaryRuneTree": {
+					"displayName": "Valor",
+					"id": 8400,
+					"rawDescription": "perkstyle_tooltip_7204",
+					"rawDisplayName": "perkstyle_displayname_7204"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Braum",
+			"summonerName": "Bot Braum",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Warwick",
+			"isBot": true,
+			"isDead": false,
+			"items": [],
+			"level": 1,
+			"position": "JUNGLE",
+			"rawChampionName": "game_character_displayname_Warwick",
+			"rawSkinName": "game_character_displayname_Warwick",
+			"respawnTimer": 0.0,
+			"riotId": "Warwick#BOT",
+			"riotIdGameName": "Warwick",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Estrategia Ofensiva",
+					"id": 8005,
+					"rawDescription": "perk_tooltip_PressTheAttack",
+					"rawDisplayName": "perk_displayname_PressTheAttack"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Warwick",
+			"summonerName": "Bot Warwick",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Castigo",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerSmite_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Irelia",
+			"isBot": true,
+			"isDead": false,
+			"items": [],
+			"level": 1,
+			"position": "TOP",
+			"rawChampionName": "game_character_displayname_Irelia",
+			"rawSkinName": "game_character_displayname_Irelia",
+			"respawnTimer": 0.0,
+			"riotId": "Irelia#BOT",
+			"riotIdGameName": "Irelia",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Agarre del Perpetuo",
+					"id": 8437,
+					"rawDescription": "perk_tooltip_GraspOfTheUndying",
+					"rawDisplayName": "perk_displayname_GraspOfTheUndying"
+				},
+				"primaryRuneTree": {
+					"displayName": "Valor",
+					"id": 8400,
+					"rawDescription": "perkstyle_tooltip_7204",
+					"rawDisplayName": "perkstyle_displayname_7204"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Irelia",
+			"summonerName": "Bot Irelia",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Corki",
+			"isBot": true,
+			"isDead": false,
+			"items": [],
+			"level": 1,
+			"position": "BOTTOM",
+			"rawChampionName": "game_character_displayname_Corki",
+			"rawSkinName": "game_character_displayname_Corki",
+			"respawnTimer": 0.0,
+			"riotId": "Corki#BOT",
+			"riotIdGameName": "Corki",
+			"riotIdTagLine": "BOT",
+			"runes": {
+				"keystone": {
+					"displayName": "Estrategia Ofensiva",
+					"id": 8005,
+					"rawDescription": "perk_tooltip_PressTheAttack",
+					"rawDisplayName": "perk_displayname_PressTheAttack"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 0,
+			"skinName": "Corki",
+			"summonerName": "Bot Corki",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Barrera",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerBarrier_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerBarrier_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		}
+	],
+	"events": {
+		"Events": [
+			{
+				"EventID": 0,
+				"EventName": "GameStart",
+				"EventTime": 0.020161200314760209
+			},
+			{
+				"EventID": 1,
+				"EventName": "MinionsSpawning",
+				"EventTime": 30.044111251831056
+			}
+		]
+	},
+	"gameData": {
+		"gameMode": "CLASSIC",
+		"gameTime": 47.15047836303711,
+		"mapName": "Map11",
+		"mapNumber": 11,
+		"mapTerrain": "Default"
+	}
+}

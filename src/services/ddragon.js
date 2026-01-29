@@ -72,3 +72,19 @@ export async function getDataFromLastVersion(version) {
   return { status: "fetched", version, itemsData: normalizedItems, champsData: normalizedChamps };
 }
 
+
+export async function getAllItemsWithSignals() {
+
+  
+  const itemsPath = `data/ddragon/items.with-signals.json`;
+
+  const itemsData = await loadJson(itemsPath);
+  return itemsData ;
+  
+
+}
+
+
+export function getItem(itemsData, itemId) {
+  return itemsData?.[String(itemId)] ?? null;
+}

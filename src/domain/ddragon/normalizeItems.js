@@ -9,7 +9,7 @@ export function normalizeItems(rawItems) {
     itemsById[id] = {
       id,
       name: item.name,
-      short: item.plaintext ?? "",
+      description: item.description,
       cost: item.gold?.total ?? 0,
       from: item.from ?? [],
       into: item.into ?? [],

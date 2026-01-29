@@ -1,0 +1,2372 @@
+
+{
+	"activePlayer": {
+		"abilities": {
+			"E": {
+				"abilityLevel": 5,
+				"displayName": "Juicio",
+				"id": "GarenE",
+				"rawDescription": "GeneratedTip_Spell_GarenE_Description",
+				"rawDisplayName": "GeneratedTip_Spell_GarenE_DisplayName"
+			},
+			"Passive": {
+				"displayName": "Perseverancia",
+				"id": "GarenPassive",
+				"rawDescription": "GeneratedTip_Passive_GarenPassive_Description",
+				"rawDisplayName": "GeneratedTip_Passive_GarenPassive_DisplayName"
+			},
+			"Q": {
+				"abilityLevel": 5,
+				"displayName": "Golpe Decisivo",
+				"id": "GarenQ",
+				"rawDescription": "GeneratedTip_Spell_GarenQ_Description",
+				"rawDisplayName": "GeneratedTip_Spell_GarenQ_DisplayName"
+			},
+			"R": {
+				"abilityLevel": 3,
+				"displayName": "Justicia Demaciana",
+				"id": "GarenR",
+				"rawDescription": "GeneratedTip_Spell_GarenR_Description",
+				"rawDisplayName": "GeneratedTip_Spell_GarenR_DisplayName"
+			},
+			"W": {
+				"abilityLevel": 4,
+				"displayName": "Coraje",
+				"id": "GarenW",
+				"rawDescription": "GeneratedTip_Spell_GarenW_Description",
+				"rawDisplayName": "GeneratedTip_Spell_GarenW_DisplayName"
+			}
+		},
+		"championStats": {
+			"abilityHaste": 0.0,
+			"abilityPower": 0.0,
+			"armor": 149.0240020751953,
+			"armorPenetrationFlat": 0.0,
+			"armorPenetrationPercent": 1.0,
+			"attackDamage": 265.5400085449219,
+			"attackRange": 175.0,
+			"attackSpeed": 1.7023626565933228,
+			"bonusArmorPenetrationPercent": 1.0,
+			"bonusMagicPenetrationPercent": 1.0,
+			"critChance": 0.5,
+			"critDamage": 230.0,
+			"currentHealth": 0.0,
+			"healShieldPower": 0.0,
+			"healthRegenRate": 61.40686798095703,
+			"lifeSteal": 0.0,
+			"magicLethality": 0.0,
+			"magicPenetrationFlat": 0.0,
+			"magicPenetrationPercent": 1.0,
+			"magicResist": 86.36599731445313,
+			"maxHealth": 2960.56005859375,
+			"moveSpeed": 463.2938232421875,
+			"omnivamp": 0.0,
+			"physicalLethality": 0.0,
+			"physicalVamp": 0.0,
+			"resourceMax": 0.0,
+			"resourceRegenRate": 0.0,
+			"resourceType": "NONE",
+			"resourceValue": 0.0,
+			"spellVamp": 0.0,
+			"tenacity": 5.0
+		},
+		"currentGold": 700.2877807617188,
+		"fullRunes": {
+			"generalRunes": [
+				{
+					"displayName": "Conquistador",
+					"id": 8010,
+					"rawDescription": "perk_tooltip_Conqueror",
+					"rawDisplayName": "perk_displayname_Conqueror"
+				},
+				{
+					"displayName": "Triunfo",
+					"id": 9111,
+					"rawDescription": "perk_tooltip_9111",
+					"rawDisplayName": "perk_displayname_9111"
+				},
+				{
+					"displayName": "Leyenda: Aceleración",
+					"id": 9105,
+					"rawDescription": "perk_tooltip_9105",
+					"rawDisplayName": "perk_displayname_9105"
+				},
+				{
+					"displayName": "La Última Batalla",
+					"id": 8299,
+					"rawDescription": "perk_tooltip_8234",
+					"rawDisplayName": "perk_displayname_8234"
+				},
+				{
+					"displayName": "Arcanista Axiomático",
+					"id": 8224,
+					"rawDescription": "perk_tooltip_AxiomArcanist",
+					"rawDisplayName": "perk_displayname_AxiomArcanist"
+				},
+				{
+					"displayName": "Celeridad",
+					"id": 8234,
+					"rawDescription": "perk_tooltip_Celerity",
+					"rawDisplayName": "perk_displayname_Celerity"
+				}
+			],
+			"keystone": {
+				"displayName": "Conquistador",
+				"id": 8010,
+				"rawDescription": "perk_tooltip_Conqueror",
+				"rawDisplayName": "perk_displayname_Conqueror"
+			},
+			"primaryRuneTree": {
+				"displayName": "Precisión",
+				"id": 8000,
+				"rawDescription": "perkstyle_tooltip_7201",
+				"rawDisplayName": "perkstyle_displayname_7201"
+			},
+			"secondaryRuneTree": {
+				"displayName": "Brujería",
+				"id": 8200,
+				"rawDescription": "perkstyle_tooltip_7202",
+				"rawDisplayName": "perkstyle_displayname_7202"
+			},
+			"statRunes": [
+				{
+					"id": 5008,
+					"rawDescription": "perk_tooltip_StatModAdaptive"
+				},
+				{
+					"id": 5008,
+					"rawDescription": "perk_tooltip_StatModAdaptive"
+				},
+				{
+					"id": 5001,
+					"rawDescription": "perk_tooltip_StatModHealthScaling"
+				}
+			]
+		},
+		"level": 17,
+		"riotId": "Dressy#Dress",
+		"riotIdGameName": "Dressy",
+		"riotIdTagLine": "Dress",
+		"summonerName": "Dressy#Dress",
+		"teamRelativeColors": true
+	},
+	"allPlayers": [
+		{
+			"championName": "Malphite",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Égida de Fuego Solar",
+					"itemID": 3068,
+					"price": 1000,
+					"rawDescription": "GeneratedTip_Item_3068_Description",
+					"rawDisplayName": "Item_3068_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Maldad",
+					"itemID": 3118,
+					"price": 650,
+					"rawDescription": "GeneratedTip_Item_3118_Description",
+					"rawDisplayName": "Item_3118_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Cota de Espinas",
+					"itemID": 3075,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_3075_Description",
+					"rawDisplayName": "Item_3075_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Manto Anulamagia",
+					"itemID": 1033,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_1033_Description",
+					"rawDisplayName": "Item_1033_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Cristal de Rubí",
+					"itemID": 1028,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_1028_Description",
+					"rawDisplayName": "Item_1028_Name",
+					"slot": 4
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Punteras de Acero Revestidas",
+					"itemID": 3047,
+					"price": 600,
+					"rawDescription": "GeneratedTip_Item_3047_Description",
+					"rawDisplayName": "Item_3047_Name",
+					"slot": 5
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 18,
+			"position": "TOP",
+			"rawChampionName": "game_character_displayname_Malphite",
+			"rawSkinName": "game_character_displayname_Malphite",
+			"respawnTimer": 0.0,
+			"riotId": "ßriańæMVÞ#6404",
+			"riotIdGameName": "ßriańæMVÞ",
+			"riotIdTagLine": "6404",
+			"runes": {
+				"keystone": {
+					"displayName": "Cometa Arcano",
+					"id": 8229,
+					"rawDescription": "perk_tooltip_ArcaneComet",
+					"rawDisplayName": "perk_displayname_ArcaneComet"
+				},
+				"primaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Inspiración",
+					"id": 8300,
+					"rawDescription": "perkstyle_tooltip_7203",
+					"rawDisplayName": "perkstyle_displayname_7203"
+				}
+			},
+			"scores": {
+				"assists": 8,
+				"creepScore": 170,
+				"deaths": 6,
+				"kills": 5,
+				"wardScore": 33.604461669921878
+			},
+			"skinID": 0,
+			"skinName": "Malphite",
+			"summonerName": "ßriańæMVÞ#6404",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Shyvana",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Al Filo de la Cordura",
+					"itemID": 3091,
+					"price": 550,
+					"rawDescription": "GeneratedTip_Item_3091_Description",
+					"rawDisplayName": "Item_3091_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Lanza de Shojin",
+					"itemID": 3161,
+					"price": 675,
+					"rawDescription": "GeneratedTip_Item_3161_Description",
+					"rawDisplayName": "Item_3161_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Botas de Mercurio",
+					"itemID": 3111,
+					"price": 550,
+					"rawDescription": "GeneratedTip_Item_3111_Description",
+					"rawDisplayName": "Item_3111_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Hábito del Espectro",
+					"itemID": 3211,
+					"price": 150,
+					"rawDescription": "GeneratedTip_Item_3211_Description",
+					"rawDisplayName": "Item_3211_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Sorbechizos",
+					"itemID": 3155,
+					"price": 200,
+					"rawDescription": "GeneratedTip_Item_3155_Description",
+					"rawDisplayName": "Item_3155_Name",
+					"slot": 4
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Martillo de Guerra de Caulfield",
+					"itemID": 3133,
+					"price": 100,
+					"rawDescription": "GeneratedTip_Item_3133_Description",
+					"rawDisplayName": "Item_3133_Name",
+					"slot": 5
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 15,
+			"position": "JUNGLE",
+			"rawChampionName": "game_character_displayname_Shyvana",
+			"rawSkinName": "game_character_skin_displayname_Shyvana_8",
+			"respawnTimer": 0.0,
+			"riotId": "GAARbaby#1527",
+			"riotIdGameName": "GAARbaby",
+			"riotIdTagLine": "1527",
+			"runes": {
+				"keystone": {
+					"displayName": "Sobre la Marcha",
+					"id": 8021,
+					"rawDescription": "perk_tooltip_FleetFootwork",
+					"rawDisplayName": "perk_displayname_FleetFootwork"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Inspiración",
+					"id": 8300,
+					"rawDescription": "perkstyle_tooltip_7203",
+					"rawDisplayName": "perkstyle_displayname_7203"
+				}
+			},
+			"scores": {
+				"assists": 7,
+				"creepScore": 100,
+				"deaths": 8,
+				"kills": 5,
+				"wardScore": 30.562606811523439
+			},
+			"skinID": 8,
+			"skinName": "Shyvana Arruinada",
+			"summonerName": "GAARbaby#1527",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Castigo Primitivo",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerSmiteAvatarOffensive_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerSmiteAvatarOffensive_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Sylas",
+			"isBot": false,
+			"isDead": true,
+			"items": [
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Cinturón Cohete Hextech",
+					"itemID": 3152,
+					"price": 300,
+					"rawDescription": "GeneratedTip_Item_3152_Description",
+					"rawDisplayName": "Item_3152_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Guardabrazo Fragmentado",
+					"itemID": 2421,
+					"price": 500,
+					"rawDescription": "GeneratedTip_Item_2421_Description",
+					"rawDisplayName": "Item_2421_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Zapatos de Lanzahechizos",
+					"itemID": 3175,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3175_Description",
+					"rawDisplayName": "Item_3175_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Lumbría",
+					"itemID": 4645,
+					"price": 900,
+					"rawDescription": "GeneratedTip_Item_4645_Description",
+					"rawDisplayName": "Item_4645_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Sortija de Doran",
+					"itemID": 1056,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_1056_Description",
+					"rawDisplayName": "Item_1056_Name",
+					"slot": 4
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 14,
+			"position": "MIDDLE",
+			"rawChampionName": "game_character_displayname_Sylas",
+			"rawSkinName": "game_character_displayname_Sylas",
+			"respawnTimer": 29.146602630615236,
+			"riotId": "ıNCEL#goth",
+			"riotIdGameName": "ıNCEL",
+			"riotIdTagLine": "goth",
+			"runes": {
+				"keystone": {
+					"displayName": "Electrocutar",
+					"id": 8112,
+					"rawDescription": "perk_tooltip_Electrocute",
+					"rawDisplayName": "perk_displayname_Electrocute"
+				},
+				"primaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				}
+			},
+			"scores": {
+				"assists": 5,
+				"creepScore": 110,
+				"deaths": 12,
+				"kills": 7,
+				"wardScore": 24.9273681640625
+			},
+			"skinID": 0,
+			"skinName": "Sylas",
+			"summonerName": "ıNCEL#goth",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Teleportación Desatada",
+					"rawDescription": "GeneratedTip_SummonerSpell_S12_SummonerTeleportUpgrade_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_S12_SummonerTeleportUpgrade_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Caitlyn",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Flechas Salvajes de Yun Tal",
+					"itemID": 3032,
+					"price": 850,
+					"rawDescription": "GeneratedTip_Item_3032_Description",
+					"rawDisplayName": "Item_3032_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Espadón",
+					"itemID": 1038,
+					"price": 1300,
+					"rawDescription": "GeneratedTip_Item_1038_Description",
+					"rawDisplayName": "Item_1038_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "El Coleccionista",
+					"itemID": 6676,
+					"price": 525,
+					"rawDescription": "GeneratedTip_Item_6676_Description",
+					"rawDisplayName": "Item_6676_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Picacha",
+					"itemID": 1037,
+					"price": 875,
+					"rawDescription": "GeneratedTip_Item_1037_Description",
+					"rawDisplayName": "Item_1037_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Capa de Agilidad",
+					"itemID": 1018,
+					"price": 600,
+					"rawDescription": "GeneratedTip_Item_1018_Description",
+					"rawDisplayName": "Item_1018_Name",
+					"slot": 4
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 16,
+			"position": "BOTTOM",
+			"rawChampionName": "game_character_displayname_Caitlyn",
+			"rawSkinName": "game_character_skin_displayname_Caitlyn_19",
+			"respawnTimer": 0.0,
+			"riotId": "Foo Bar Baz#LAS",
+			"riotIdGameName": "Foo Bar Baz",
+			"riotIdTagLine": "LAS",
+			"runes": {
+				"keystone": {
+					"displayName": "Cadencia Letal",
+					"id": 8008,
+					"rawDescription": "perk_tooltip_LethalTempo",
+					"rawDisplayName": "perk_displayname_LethalTempo"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 5,
+				"creepScore": 260,
+				"deaths": 4,
+				"kills": 7,
+				"wardScore": 32.634098052978519
+			},
+			"skinID": 19,
+			"skinName": "Caitlyn de Arcadia",
+			"summonerName": "Foo Bar Baz#LAS",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Barrera",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerBarrier_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerBarrier_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Lulu",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Tejesueños",
+					"itemID": 3870,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3870_Description",
+					"rawDisplayName": "Item_3870_Name",
+					"slot": 0
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Canto de Guerra de Shurelya",
+					"itemID": 2065,
+					"price": 400,
+					"rawDescription": "GeneratedTip_Item_2065_Description",
+					"rawDisplayName": "Item_2065_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Pebetero Ardiente",
+					"itemID": 3504,
+					"price": 700,
+					"rawDescription": "GeneratedTip_Item_3504_Description",
+					"rawDisplayName": "Item_3504_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Botas Jonias de la Lucidez",
+					"itemID": 3158,
+					"price": 350,
+					"rawDescription": "GeneratedTip_Item_3158_Description",
+					"rawDisplayName": "Item_3158_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Renovador de Piedra Lunar",
+					"itemID": 6617,
+					"price": 500,
+					"rawDescription": "GeneratedTip_Item_6617_Description",
+					"rawDisplayName": "Item_6617_Name",
+					"slot": 4
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Lente del Oráculo",
+					"itemID": 3364,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3364_Description",
+					"rawDisplayName": "Item_3364_Name",
+					"slot": 6
+				}
+			],
+			"level": 14,
+			"position": "UTILITY",
+			"rawChampionName": "game_character_displayname_Lulu",
+			"rawSkinName": "game_character_displayname_Lulu",
+			"respawnTimer": 0.0,
+			"riotId": "zoldyck kilua#4651",
+			"riotIdGameName": "zoldyck kilua",
+			"riotIdTagLine": "4651",
+			"runes": {
+				"keystone": {
+					"displayName": "Invocación: Aery",
+					"id": 8214,
+					"rawDescription": "perk_tooltip_SummonAery",
+					"rawDisplayName": "perk_displayname_SummonAery"
+				},
+				"primaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Valor",
+					"id": 8400,
+					"rawDescription": "perkstyle_tooltip_7204",
+					"rawDisplayName": "perkstyle_displayname_7204"
+				}
+			},
+			"scores": {
+				"assists": 18,
+				"creepScore": 20,
+				"deaths": 5,
+				"kills": 1,
+				"wardScore": 77.941162109375
+			},
+			"skinID": 0,
+			"skinName": "Lulu",
+			"summonerName": "zoldyck kilua#4651",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Curación",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerHeal_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHeal_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		},
+		{
+			"championName": "Garen",
+			"isBot": false,
+			"isDead": true,
+			"items": [
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Rompeavances",
+					"itemID": 6631,
+					"price": 750,
+					"rawDescription": "GeneratedTip_Item_6631_Description",
+					"rawDisplayName": "Item_6631_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Escudo de Doran",
+					"itemID": 1054,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_1054_Description",
+					"rawDisplayName": "Item_1054_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Grebas del Berserker",
+					"itemID": 3006,
+					"price": 300,
+					"rawDescription": "GeneratedTip_Item_3006_Description",
+					"rawDisplayName": "Item_3006_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Bailarín Espectral",
+					"itemID": 3046,
+					"price": 950,
+					"rawDescription": "GeneratedTip_Item_3046_Description",
+					"rawDisplayName": "Item_3046_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Filo del Infinito",
+					"itemID": 3031,
+					"price": 725,
+					"rawDescription": "GeneratedTip_Item_3031_Description",
+					"rawDisplayName": "Item_3031_Name",
+					"slot": 4
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Armadura de Tela",
+					"itemID": 1029,
+					"price": 300,
+					"rawDescription": "GeneratedTip_Item_1029_Description",
+					"rawDisplayName": "Item_1029_Name",
+					"slot": 5
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 17,
+			"position": "TOP",
+			"rawChampionName": "game_character_displayname_Garen",
+			"rawSkinName": "game_character_skin_displayname_Garen_22",
+			"respawnTimer": 42.683109283447269,
+			"riotId": "Dressy#Dress",
+			"riotIdGameName": "Dressy",
+			"riotIdTagLine": "Dress",
+			"runes": {
+				"keystone": {
+					"displayName": "Conquistador",
+					"id": 8010,
+					"rawDescription": "perk_tooltip_Conqueror",
+					"rawDisplayName": "perk_displayname_Conqueror"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 7,
+				"creepScore": 190,
+				"deaths": 8,
+				"kills": 6,
+				"wardScore": 37.741065979003909
+			},
+			"skinID": 22,
+			"skinName": "Garen Reinos Mecha",
+			"summonerName": "Dressy#Dress",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Evelynn",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Sombrero Mortífero de Rabadon",
+					"itemID": 3089,
+					"price": 1100,
+					"rawDescription": "GeneratedTip_Item_3089_Description",
+					"rawDisplayName": "Item_3089_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Maldición del Liche",
+					"itemID": 3100,
+					"price": 250,
+					"rawDescription": "GeneratedTip_Item_3100_Description",
+					"rawDisplayName": "Item_3100_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Botas de Rapidez",
+					"itemID": 3009,
+					"price": 700,
+					"rawDescription": "GeneratedTip_Item_3009_Description",
+					"rawDisplayName": "Item_3009_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Robaalmas de Mejai",
+					"itemID": 3041,
+					"price": 1150,
+					"rawDescription": "GeneratedTip_Item_3041_Description",
+					"rawDisplayName": "Item_3041_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Báculo del Vacío",
+					"itemID": 3135,
+					"price": 1050,
+					"rawDescription": "GeneratedTip_Item_3135_Description",
+					"rawDisplayName": "Item_3135_Name",
+					"slot": 4
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Lente del Oráculo",
+					"itemID": 3364,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3364_Description",
+					"rawDisplayName": "Item_3364_Name",
+					"slot": 6
+				}
+			],
+			"level": 17,
+			"position": "JUNGLE",
+			"rawChampionName": "game_character_displayname_Evelynn",
+			"rawSkinName": "game_character_displayname_Evelynn",
+			"respawnTimer": 0.0,
+			"riotId": "SQ mvmeo#LAS",
+			"riotIdGameName": "SQ mvmeo",
+			"riotIdTagLine": "LAS",
+			"runes": {
+				"keystone": {
+					"displayName": "Electrocutar",
+					"id": 8112,
+					"rawDescription": "perk_tooltip_Electrocute",
+					"rawDisplayName": "perk_displayname_Electrocute"
+				},
+				"primaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 8,
+				"creepScore": 170,
+				"deaths": 1,
+				"kills": 12,
+				"wardScore": 10.596529960632325
+			},
+			"skinID": 0,
+			"skinName": "Evelynn",
+			"summonerName": "SQ mvmeo#LAS",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Castigo Primitivo",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerSmiteAvatarUtility_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerSmiteAvatarUtility_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Yasuo",
+			"isBot": false,
+			"isDead": true,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Espada del Rey Arruinado",
+					"itemID": 3153,
+					"price": 725,
+					"rawDescription": "GeneratedTip_Item_3153_Description",
+					"rawDisplayName": "Item_3153_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Grebas de Armacero",
+					"itemID": 3172,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3172_Description",
+					"rawDisplayName": "Item_3172_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Arcoescudo Inmortal",
+					"itemID": 6673,
+					"price": 825,
+					"rawDescription": "GeneratedTip_Item_6673_Description",
+					"rawDisplayName": "Item_6673_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Filo del Infinito",
+					"itemID": 3031,
+					"price": 725,
+					"rawDescription": "GeneratedTip_Item_3031_Description",
+					"rawDisplayName": "Item_3031_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "El Llamado del Verdugo",
+					"itemID": 3123,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_3123_Description",
+					"rawDisplayName": "Item_3123_Name",
+					"slot": 4
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Picacha",
+					"itemID": 1037,
+					"price": 875,
+					"rawDescription": "GeneratedTip_Item_1037_Description",
+					"rawDisplayName": "Item_1037_Name",
+					"slot": 5
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Alteración de Visión Lejana",
+					"itemID": 3363,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3363_Description",
+					"rawDisplayName": "Item_3363_Name",
+					"slot": 6
+				}
+			],
+			"level": 16,
+			"position": "MIDDLE",
+			"rawChampionName": "game_character_displayname_Yasuo",
+			"rawSkinName": "game_character_skin_displayname_Yasuo_56",
+			"respawnTimer": 34.08462142944336,
+			"riotId": "El Infielcito#LAS",
+			"riotIdGameName": "El Infielcito",
+			"riotIdTagLine": "LAS",
+			"runes": {
+				"keystone": {
+					"displayName": "Cadencia Letal",
+					"id": 8008,
+					"rawDescription": "perk_tooltip_LethalTempo",
+					"rawDisplayName": "perk_displayname_LethalTempo"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Valor",
+					"id": 8400,
+					"rawDescription": "perkstyle_tooltip_7204",
+					"rawDisplayName": "perkstyle_displayname_7204"
+				}
+			},
+			"scores": {
+				"assists": 10,
+				"creepScore": 210,
+				"deaths": 6,
+				"kills": 4,
+				"wardScore": 25.805713653564454
+			},
+			"skinID": 56,
+			"skinName": "Yasuo Tinta Sombría",
+			"summonerName": "El Infielcito#LAS",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ignición",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Ashe",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Filo del Infinito",
+					"itemID": 3031,
+					"price": 725,
+					"rawDescription": "GeneratedTip_Item_3031_Description",
+					"rawDisplayName": "Item_3031_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Flechas Salvajes de Yun Tal",
+					"itemID": 3032,
+					"price": 850,
+					"rawDescription": "GeneratedTip_Item_3032_Description",
+					"rawDisplayName": "Item_3032_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Matakrakens",
+					"itemID": 6672,
+					"price": 325,
+					"rawDescription": "GeneratedTip_Item_6672_Description",
+					"rawDisplayName": "Item_6672_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Proyectiles Cazademonios",
+					"itemID": 2512,
+					"price": 850,
+					"rawDescription": "GeneratedTip_Item_2512_Description",
+					"rawDisplayName": "Item_2512_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Daga",
+					"itemID": 1042,
+					"price": 250,
+					"rawDescription": "GeneratedTip_Item_1042_Description",
+					"rawDisplayName": "Item_1042_Name",
+					"slot": 4
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Centinela Invisible",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 15,
+			"position": "BOTTOM",
+			"rawChampionName": "game_character_displayname_Ashe",
+			"rawSkinName": "game_character_skin_displayname_Ashe_8",
+			"respawnTimer": 0.0,
+			"riotId": "#",
+			"riotIdGameName": "",
+			"riotIdTagLine": "",
+			"runes": {
+				"keystone": {
+					"displayName": "Estrategia Ofensiva",
+					"id": 8005,
+					"rawDescription": "perk_tooltip_PressTheAttack",
+					"rawDisplayName": "perk_displayname_PressTheAttack"
+				},
+				"primaryRuneTree": {
+					"displayName": "Precisión",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				}
+			},
+			"scores": {
+				"assists": 9,
+				"creepScore": 170,
+				"deaths": 6,
+				"kills": 9,
+				"wardScore": 26.651966094970704
+			},
+			"skinID": 8,
+			"skinName": "PROYECTO: Ashe",
+			"summonerName": "Ashe",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Barrera",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerBarrier_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerBarrier_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		},
+		{
+			"championName": "Brand",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Espina Dimensional de Zaz'Zak",
+					"itemID": 3871,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3871_Description",
+					"rawDisplayName": "Item_3871_Name",
+					"slot": 0
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Cetro de Cristal de Rylai",
+					"itemID": 3116,
+					"price": 450,
+					"rawDescription": "GeneratedTip_Item_3116_Description",
+					"rawDisplayName": "Item_3116_Name",
+					"slot": 1
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Botas del Hechicero",
+					"itemID": 3020,
+					"price": 800,
+					"rawDescription": "GeneratedTip_Item_3020_Description",
+					"rawDisplayName": "Item_3020_Name",
+					"slot": 2
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "El Tormento de Liandry",
+					"itemID": 6653,
+					"price": 800,
+					"rawDescription": "GeneratedTip_Item_6653_Description",
+					"rawDisplayName": "Item_6653_Name",
+					"slot": 3
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Antorcha de Fuegoscuro",
+					"itemID": 2503,
+					"price": 700,
+					"rawDescription": "GeneratedTip_Item_2503_Description",
+					"rawDisplayName": "Item_2503_Name",
+					"slot": 4
+				},
+				{
+					"canUse": false,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Cristal de Zafiro",
+					"itemID": 1027,
+					"price": 300,
+					"rawDescription": "GeneratedTip_Item_1027_Description",
+					"rawDisplayName": "Item_1027_Name",
+					"slot": 5
+				},
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Lente del Oráculo",
+					"itemID": 3364,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3364_Description",
+					"rawDisplayName": "Item_3364_Name",
+					"slot": 6
+				}
+			],
+			"level": 15,
+			"position": "UTILITY",
+			"rawChampionName": "game_character_displayname_Brand",
+			"rawSkinName": "game_character_displayname_Brand",
+			"respawnTimer": 0.0,
+			"riotId": "CavManage#power",
+			"riotIdGameName": "CavManage",
+			"riotIdTagLine": "power",
+			"runes": {
+				"keystone": {
+					"displayName": "Cosecha Oscura",
+					"id": 8128,
+					"rawDescription": "perk_tooltip_DarkHarvest",
+					"rawDisplayName": "perk_displayname_DarkHarvest"
+				},
+				"primaryRuneTree": {
+					"displayName": "Dominación",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Brujería",
+					"id": 8200,
+					"rawDescription": "perkstyle_tooltip_7202",
+					"rawDisplayName": "perkstyle_displayname_7202"
+				}
+			},
+			"scores": {
+				"assists": 17,
+				"creepScore": 90,
+				"deaths": 4,
+				"kills": 4,
+				"wardScore": 93.10086822509766
+			},
+			"skinID": 0,
+			"skinName": "Brand",
+			"summonerName": "CavManage#power",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Destello",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Fantasma",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerHaste_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHaste_DisplayName"
+				}
+			},
+			"team": "CHAOS"
+		}
+	],
+	"events": {
+		"Events": [
+			{
+				"EventID": 0,
+				"EventName": "GameStart",
+				"EventTime": 0.011133099906146527
+			},
+			{
+				"EventID": 1,
+				"EventName": "MinionsSpawning",
+				"EventTime": 30.010251998901368
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo"
+				],
+				"EventID": 2,
+				"EventName": "ChampionKill",
+				"EventTime": 195.42831420898438,
+				"KillerName": "Dressy",
+				"VictimName": "ßriańæMVÞ"
+			},
+			{
+				"EventID": 3,
+				"EventName": "FirstBlood",
+				"EventTime": 195.42831420898438,
+				"Recipient": "Dressy"
+			},
+			{
+				"Assisters": [],
+				"EventID": 4,
+				"EventName": "ChampionKill",
+				"EventTime": 239.90809631347657,
+				"KillerName": "CavManage",
+				"VictimName": "zoldyck kilua"
+			},
+			{
+				"Assisters": [],
+				"EventID": 5,
+				"EventName": "ChampionKill",
+				"EventTime": 291.6121520996094,
+				"KillerName": "ßriańæMVÞ",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo"
+				],
+				"EventID": 6,
+				"EventName": "ChampionKill",
+				"EventTime": 314.1376647949219,
+				"KillerName": "El Infielcito",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [],
+				"DragonType": "Water",
+				"EventID": 7,
+				"EventName": "DragonKill",
+				"EventTime": 333.9228820800781,
+				"KillerName": "GAARbaby",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"El Infielcito"
+				],
+				"EventID": 8,
+				"EventName": "ChampionKill",
+				"EventTime": 392.5696716308594,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo"
+				],
+				"EventID": 9,
+				"EventName": "ChampionKill",
+				"EventTime": 402.5007019042969,
+				"KillerName": "Ashe",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 10,
+				"EventName": "ChampionKill",
+				"EventTime": 458.39190673828127,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "CavManage"
+			},
+			{
+				"Assisters": [],
+				"EventID": 11,
+				"EventName": "ChampionKill",
+				"EventTime": 475.6085510253906,
+				"KillerName": "ßriańæMVÞ",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"ıNCEL"
+				],
+				"EventID": 12,
+				"EventName": "ChampionKill",
+				"EventTime": 496.32110595703127,
+				"KillerName": "GAARbaby",
+				"VictimName": "El Infielcito"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ"
+				],
+				"EventID": 13,
+				"EventName": "HordeKill",
+				"EventTime": 513.211669921875,
+				"KillerName": "GAARbaby",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ"
+				],
+				"EventID": 14,
+				"EventName": "HordeKill",
+				"EventTime": 519.4896240234375,
+				"KillerName": "GAARbaby",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ"
+				],
+				"EventID": 15,
+				"EventName": "HordeKill",
+				"EventTime": 522.5300903320313,
+				"KillerName": "GAARbaby",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"Ashe",
+					"CavManage"
+				],
+				"EventID": 16,
+				"EventName": "ChampionKill",
+				"EventTime": 595.8719482421875,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "Foo Bar Baz"
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo",
+					"CavManage"
+				],
+				"EventID": 17,
+				"EventName": "ChampionKill",
+				"EventTime": 600.197998046875,
+				"KillerName": "Ashe",
+				"VictimName": "zoldyck kilua"
+			},
+			{
+				"Assisters": [
+					"El Infielcito",
+					"Ashe"
+				],
+				"EventID": 18,
+				"EventName": "TurretKilled",
+				"EventTime": 622.5947265625,
+				"KillerName": "CavManage",
+				"TurretKilled": "Turret_TOrder_L0_P3_3795288474"
+			},
+			{
+				"EventID": 19,
+				"EventName": "FirstBrick",
+				"EventTime": 622.5947265625,
+				"KillerName": "CavManage"
+			},
+			{
+				"Assisters": [
+					"ıNCEL",
+					"zoldyck kilua"
+				],
+				"DragonType": "Earth",
+				"EventID": 20,
+				"EventName": "DragonKill",
+				"EventTime": 689.9492797851563,
+				"KillerName": "GAARbaby",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"ıNCEL",
+					"zoldyck kilua"
+				],
+				"EventID": 21,
+				"EventName": "ChampionKill",
+				"EventTime": 699.472900390625,
+				"KillerName": "GAARbaby",
+				"VictimName": "El Infielcito"
+			},
+			{
+				"Assisters": [
+					"Foo Bar Baz",
+					"zoldyck kilua"
+				],
+				"EventID": 22,
+				"EventName": "ChampionKill",
+				"EventTime": 704.3930053710938,
+				"KillerName": "GAARbaby",
+				"VictimName": "Ashe"
+			},
+			{
+				"EventID": 23,
+				"EventName": "Multikill",
+				"EventTime": 704.3930053710938,
+				"KillStreak": 2,
+				"KillerName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"CavManage"
+				],
+				"EventID": 24,
+				"EventName": "ChampionKill",
+				"EventTime": 710.3128662109375,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"GAARbaby",
+					"Foo Bar Baz"
+				],
+				"EventID": 25,
+				"EventName": "ChampionKill",
+				"EventTime": 775.7901611328125,
+				"KillerName": "zoldyck kilua",
+				"VictimName": "Ashe"
+			},
+			{
+				"Assisters": [],
+				"EventID": 26,
+				"EventName": "ChampionKill",
+				"EventTime": 823.8138427734375,
+				"KillerName": "ßriańæMVÞ",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"El Infielcito"
+				],
+				"EventID": 27,
+				"EventName": "ChampionKill",
+				"EventTime": 867.2501831054688,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 28,
+				"EventName": "ChampionKill",
+				"EventTime": 904.9484252929688,
+				"KillerName": "ıNCEL",
+				"VictimName": "Ashe"
+			},
+			{
+				"Assisters": [
+					"Ashe",
+					"CavManage"
+				],
+				"EventID": 29,
+				"EventName": "ChampionKill",
+				"EventTime": 905.34619140625,
+				"KillerName": "El Infielcito",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [],
+				"EventID": 30,
+				"EventName": "TurretKilled",
+				"EventTime": 906.9057006835938,
+				"KillerName": "Foo Bar Baz",
+				"TurretKilled": "Turret_TChaos_L0_P3_511845594"
+			},
+			{
+				"Assisters": [
+					"GAARbaby",
+					"zoldyck kilua"
+				],
+				"EventID": 31,
+				"EventName": "ChampionKill",
+				"EventTime": 924.5421142578125,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "El Infielcito"
+			},
+			{
+				"Assisters": [
+					"El Infielcito",
+					"CavManage"
+				],
+				"EventID": 32,
+				"EventName": "ChampionKill",
+				"EventTime": 937.082275390625,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [],
+				"EventID": 33,
+				"EventName": "ChampionKill",
+				"EventTime": 988.1261596679688,
+				"KillerName": "Ashe",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo"
+				],
+				"EventID": 34,
+				"EventName": "ChampionKill",
+				"EventTime": 1005.6192016601563,
+				"KillerName": "Dressy",
+				"VictimName": "ßriańæMVÞ"
+			},
+			{
+				"Assisters": [],
+				"EventID": 35,
+				"EventName": "ChampionKill",
+				"EventTime": 1008.3457641601563,
+				"KillerName": "ßriańæMVÞ",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"CavManage"
+				],
+				"EventID": 36,
+				"EventName": "TurretKilled",
+				"EventTime": 1009.37890625,
+				"KillerName": "El Infielcito",
+				"TurretKilled": "Turret_TOrder_L1_P3_1242677625"
+			},
+			{
+				"Assisters": [],
+				"DragonType": "Air",
+				"EventID": 37,
+				"EventName": "DragonKill",
+				"EventTime": 1026.608154296875,
+				"KillerName": "GAARbaby",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"GAARbaby",
+					"zoldyck kilua"
+				],
+				"EventID": 38,
+				"EventName": "ChampionKill",
+				"EventTime": 1078.606201171875,
+				"KillerName": "ıNCEL",
+				"VictimName": "SQ mvmeo"
+			},
+			{
+				"Assisters": [],
+				"EventID": 39,
+				"EventName": "ChampionKill",
+				"EventTime": 1093.8319091796876,
+				"KillerName": "El Infielcito",
+				"VictimName": "zoldyck kilua"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 40,
+				"EventName": "ChampionKill",
+				"EventTime": 1099.2808837890626,
+				"KillerName": "ıNCEL",
+				"VictimName": "El Infielcito"
+			},
+			{
+				"Assisters": [
+					"Ashe"
+				],
+				"EventID": 41,
+				"EventName": "ChampionKill",
+				"EventTime": 1140.458740234375,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"zoldyck kilua",
+					"SQ mvmeo",
+					"Ashe",
+					"CavManage"
+				],
+				"EventID": 42,
+				"EventName": "HeraldKill",
+				"EventTime": 1177.6246337890626,
+				"KillerName": "ıNCEL",
+				"Stolen": "True"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"Ashe",
+					"CavManage"
+				],
+				"EventID": 43,
+				"EventName": "ChampionKill",
+				"EventTime": 1187.9862060546876,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "ßriańæMVÞ"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"SQ mvmeo",
+					"CavManage"
+				],
+				"EventID": 44,
+				"EventName": "ChampionKill",
+				"EventTime": 1197.2406005859376,
+				"KillerName": "Ashe",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"ıNCEL",
+					"Foo Bar Baz",
+					"zoldyck kilua"
+				],
+				"EventID": 45,
+				"EventName": "ChampionKill",
+				"EventTime": 1198.9464111328126,
+				"KillerName": "GAARbaby",
+				"VictimName": "Ashe"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 46,
+				"EventName": "ChampionKill",
+				"EventTime": 1227.9378662109376,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "CavManage"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 47,
+				"EventName": "TurretKilled",
+				"EventTime": 1232.31005859375,
+				"KillerName": "Foo Bar Baz",
+				"TurretKilled": "Turret_TChaos_L1_P3_2254202041"
+			},
+			{
+				"Assisters": [],
+				"EventID": 48,
+				"EventName": "TurretKilled",
+				"EventTime": 1234.15625,
+				"KillerName": "Dressy",
+				"TurretKilled": "Turret_TOrder_L2_P3_1509986696"
+			},
+			{
+				"Assisters": [],
+				"EventID": 49,
+				"EventName": "TurretKilled",
+				"EventTime": 1272.8472900390626,
+				"KillerName": "ßriańæMVÞ",
+				"TurretKilled": "Turret_TChaos_L2_P3_2521511112"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"CavManage"
+				],
+				"EventID": 50,
+				"EventName": "ChampionKill",
+				"EventTime": 1290.205078125,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "ßriańæMVÞ"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"El Infielcito",
+					"CavManage"
+				],
+				"EventID": 51,
+				"EventName": "ChampionKill",
+				"EventTime": 1331.4920654296876,
+				"KillerName": "Ashe",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"El Infielcito",
+					"CavManage"
+				],
+				"EventID": 52,
+				"EventName": "ChampionKill",
+				"EventTime": 1333.8365478515626,
+				"KillerName": "Ashe",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"EventID": 53,
+				"EventName": "Multikill",
+				"EventTime": 1333.8365478515626,
+				"KillStreak": 2,
+				"KillerName": "Ashe"
+			},
+			{
+				"Assisters": [
+					"Ashe"
+				],
+				"DragonType": "Air",
+				"EventID": 54,
+				"EventName": "DragonKill",
+				"EventTime": 1347.777099609375,
+				"KillerName": "SQ mvmeo",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"CavManage"
+				],
+				"EventID": 55,
+				"EventName": "ChampionKill",
+				"EventTime": 1350.3671875,
+				"KillerName": "El Infielcito",
+				"VictimName": "Foo Bar Baz"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"El Infielcito"
+				],
+				"EventID": 56,
+				"EventName": "ChampionKill",
+				"EventTime": 1368.690673828125,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "ßriańæMVÞ"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 57,
+				"EventName": "ChampionKill",
+				"EventTime": 1384.2691650390626,
+				"KillerName": "ıNCEL",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"El Infielcito",
+					"CavManage"
+				],
+				"EventID": 58,
+				"EventName": "ChampionKill",
+				"EventTime": 1395.9921875,
+				"KillerName": "Ashe",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"Ashe"
+				],
+				"EventID": 59,
+				"EventName": "TurretKilled",
+				"EventTime": 1402.381103515625,
+				"KillerName": "El Infielcito",
+				"TurretKilled": "Turret_TOrder_L0_P2_3812066093"
+			},
+			{
+				"Assisters": [
+					"CavManage"
+				],
+				"EventID": 60,
+				"EventName": "ChampionKill",
+				"EventTime": 1427.4290771484376,
+				"KillerName": "Ashe",
+				"VictimName": "Foo Bar Baz"
+			},
+			{
+				"Assisters": [
+					"Foo Bar Baz",
+					"zoldyck kilua"
+				],
+				"EventID": 61,
+				"EventName": "ChampionKill",
+				"EventTime": 1432.2496337890626,
+				"KillerName": "GAARbaby",
+				"VictimName": "CavManage"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua"
+				],
+				"EventID": 62,
+				"EventName": "ChampionKill",
+				"EventTime": 1432.371826171875,
+				"KillerName": "ßriańæMVÞ",
+				"VictimName": "Ashe"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"GAARbaby",
+					"zoldyck kilua"
+				],
+				"EventID": 63,
+				"EventName": "ChampionKill",
+				"EventTime": 1465.4376220703126,
+				"KillerName": "ıNCEL",
+				"VictimName": "El Infielcito"
+			},
+			{
+				"Assisters": [
+					"Ashe"
+				],
+				"EventID": 64,
+				"EventName": "ChampionKill",
+				"EventTime": 1495.9671630859376,
+				"KillerName": "CavManage",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo"
+				],
+				"EventID": 65,
+				"EventName": "ChampionKill",
+				"EventTime": 1501.9293212890626,
+				"KillerName": "Dressy",
+				"VictimName": "zoldyck kilua"
+			},
+			{
+				"Assisters": [
+					"SQ mvmeo"
+				],
+				"EventID": 66,
+				"EventName": "ChampionKill",
+				"EventTime": 1552.52734375,
+				"KillerName": "Dressy",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"GAARbaby"
+				],
+				"EventID": 67,
+				"EventName": "ChampionKill",
+				"EventTime": 1555.0675048828126,
+				"KillerName": "ıNCEL",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"Foo Bar Baz",
+					"zoldyck kilua"
+				],
+				"EventID": 68,
+				"EventName": "ChampionKill",
+				"EventTime": 1563.6246337890626,
+				"KillerName": "ıNCEL",
+				"VictimName": "Ashe"
+			},
+			{
+				"EventID": 69,
+				"EventName": "Multikill",
+				"EventTime": 1563.6246337890626,
+				"KillStreak": 2,
+				"KillerName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"Ashe"
+				],
+				"EventID": 70,
+				"EventName": "ChampionKill",
+				"EventTime": 1568.1094970703126,
+				"KillerName": "CavManage",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"Ashe",
+					"CavManage"
+				],
+				"EventID": 71,
+				"EventName": "ChampionKill",
+				"EventTime": 1574.5345458984376,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "zoldyck kilua"
+			},
+			{
+				"Assisters": [],
+				"EventID": 72,
+				"EventName": "TurretKilled",
+				"EventTime": 1580.193359375,
+				"KillerName": "El Infielcito",
+				"TurretKilled": "Turret_TOrder_L1_P2_1225900006"
+			},
+			{
+				"Assisters": [],
+				"EventID": 73,
+				"EventName": "ChampionKill",
+				"EventTime": 1590.582763671875,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "Foo Bar Baz"
+			},
+			{
+				"Assisters": [
+					"zoldyck kilua",
+					"El Infielcito",
+					"Ashe"
+				],
+				"DragonType": "Air",
+				"EventID": 74,
+				"EventName": "DragonKill",
+				"EventTime": 1658.1337890625,
+				"KillerName": "SQ mvmeo",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"El Infielcito",
+					"CavManage"
+				],
+				"EventID": 75,
+				"EventName": "ChampionKill",
+				"EventTime": 1681.832763671875,
+				"KillerName": "Ashe",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"El Infielcito",
+					"Ashe",
+					"CavManage"
+				],
+				"EventID": 76,
+				"EventName": "ChampionKill",
+				"EventTime": 1686.3812255859376,
+				"KillerName": "Dressy",
+				"VictimName": "ßriańæMVÞ"
+			},
+			{
+				"Assisters": [],
+				"EventID": 77,
+				"EventName": "TurretKilled",
+				"EventTime": 1690.586181640625,
+				"KillerName": "Dressy",
+				"TurretKilled": "Turret_TOrder_L1_P1_1209122387"
+			},
+			{
+				"Assisters": [
+					"El Infielcito",
+					"Ashe"
+				],
+				"EventID": 78,
+				"EventName": "InhibKilled",
+				"EventTime": 1698.1083984375,
+				"InhibKilled": "Inhib_TOrder_L1_P1_2786523670",
+				"KillerName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"Dressy",
+					"El Infielcito",
+					"Ashe"
+				],
+				"EventID": 79,
+				"EventName": "BaronKill",
+				"EventTime": 1735.48095703125,
+				"KillerName": "SQ mvmeo",
+				"Stolen": "False"
+			},
+			{
+				"Assisters": [
+					"Ashe"
+				],
+				"EventID": 80,
+				"EventName": "ChampionKill",
+				"EventTime": 1795.6397705078126,
+				"KillerName": "CavManage",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"GAARbaby",
+					"zoldyck kilua"
+				],
+				"EventID": 81,
+				"EventName": "ChampionKill",
+				"EventTime": 1796.0621337890626,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "Dressy"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"GAARbaby",
+					"zoldyck kilua"
+				],
+				"EventID": 82,
+				"EventName": "ChampionKill",
+				"EventTime": 1803.5997314453126,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "CavManage"
+			},
+			{
+				"EventID": 83,
+				"EventName": "Multikill",
+				"EventTime": 1803.5997314453126,
+				"KillStreak": 2,
+				"KillerName": "Foo Bar Baz"
+			},
+			{
+				"Assisters": [],
+				"EventID": 84,
+				"EventName": "TurretKilled",
+				"EventTime": 1809.6573486328126,
+				"KillerName": "El Infielcito",
+				"TurretKilled": "Turret_TOrder_L0_P1_3761733236"
+			},
+			{
+				"Assisters": [
+					"CavManage"
+				],
+				"EventID": 85,
+				"EventName": "ChampionKill",
+				"EventTime": 1815.2532958984376,
+				"KillerName": "SQ mvmeo",
+				"VictimName": "GAARbaby"
+			},
+			{
+				"Assisters": [
+					"Dressy"
+				],
+				"EventID": 86,
+				"EventName": "InhibKilled",
+				"EventTime": 1894.8226318359376,
+				"InhibKilled": "Inhib_TOrder_L0_P1_2971077479",
+				"KillerName": "El Infielcito"
+			},
+			{
+				"Assisters": [],
+				"EventID": 87,
+				"EventName": "TurretKilled",
+				"EventTime": 1896.7288818359376,
+				"KillerName": "CavManage",
+				"TurretKilled": "Turret_TOrder_L2_P2_1526764315"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"ıNCEL",
+					"zoldyck kilua"
+				],
+				"EventID": 88,
+				"EventName": "ChampionKill",
+				"EventTime": 1905.02490234375,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "El Infielcito"
+			},
+			{
+				"Assisters": [
+					"El Infielcito"
+				],
+				"EventID": 89,
+				"EventName": "ChampionKill",
+				"EventTime": 1905.773681640625,
+				"KillerName": "Dressy",
+				"VictimName": "ıNCEL"
+			},
+			{
+				"Assisters": [
+					"ßriańæMVÞ",
+					"ıNCEL",
+					"zoldyck kilua"
+				],
+				"EventID": 90,
+				"EventName": "ChampionKill",
+				"EventTime": 1910.7496337890626,
+				"KillerName": "Foo Bar Baz",
+				"VictimName": "Dressy"
+			},
+			{
+				"EventID": 91,
+				"EventName": "Multikill",
+				"EventTime": 1910.7496337890626,
+				"KillStreak": 2,
+				"KillerName": "Foo Bar Baz"
+			}
+		]
+	},
+	"gameData": {
+		"gameMode": "CLASSIC",
+		"gameTime": 1924.9952392578126,
+		"mapName": "Map11",
+		"mapNumber": 11,
+		"mapTerrain": "Default"
+	}
+}

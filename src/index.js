@@ -6,6 +6,8 @@ import { route } from "./lib/router.js";
 import { test } from "./routes/test.js";
 import { handleQuestion } from "./routes/question.js";
 import { handleDataFromDdragon } from "./routes/ddragon-data.js";
+import { handleFrontend } from "./routes/frontend.js";
+import { handleRecommend } from "./routes/recommend.js";
 
 const PORT = process.env.PORT || 3000;
 
@@ -16,10 +18,13 @@ const env = {
 };
 
 const routes = [
+	["GET", "/", handleFrontend],
+	["GET", "/frontend/App.js", handleFrontend],
 	["GET", "/health", handleHealth],
 	["GET", "/test", test],
 	["POST", "/question", handleQuestion],
 	["GET", "/ddragon-data", handleDataFromDdragon],
+	["POST", "/recommend", handleRecommend],
 ];
 
 const server = http.createServer(async (req, res) => {

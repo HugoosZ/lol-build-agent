@@ -25,6 +25,16 @@ export function json(data, status = 200, headers = {}) {
   });
 }
 
+export function text(body, status = 200, headers = {}) {
+  return new NodeResponse(body, {
+    status,
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      ...headers,
+    },
+  });
+}
+
 // Helper para parsear el body de requests en Node.js
 export function parseBody(req) {
   return new Promise((resolve, reject) => {
