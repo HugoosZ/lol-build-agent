@@ -42,19 +42,24 @@ function pickStats(stats = {}) {
   };
 }
 
-export function normalizeMatch(raw, myRiotId = "Dressy#Dress") {
+export function normalizeMatch(raw) {
+  const all = Array.isArray(raw?.allPlayers) ? raw.allPlayers : [];
+  const ap = raw?.activePlayer;
+
+  // Auto-detectar riotId desde activePlayer
+  const myRiotId = ap?.riotId 
+    ?? (ap?.riotIdGameName && ap?.riotIdTagLine ? `${ap.riotIdGameName}#${ap.riotIdTagLine}` : null)
+    ?? ap?.summonerName
+    ?? "Unknown";
+
   const myId = parseRiotId(myRiotId);
 
-  const all = Array.isArray(raw?.allPlayers) ? raw.allPlayers : [];
   const meFromAll = all.find(p => {
     const rid = playerRiotId(p);
     // match por riotId completo o por summonerName fallback
     if (rid.includes("#") && myId.gameName && myId.tagLine) return rid === `${myId.gameName}#${myId.tagLine}`;
     return rid === myRiotId; // si usas summonerName
   });
-
-  // activePlayer a veces trae currentGold y stats más completos
-  const ap = raw?.activePlayer;
 
   // Decide "me" preferentemente desde allPlayers (para tener team), y completa con activePlayer
   const me = {

@@ -1,128 +1,157 @@
-export function buildRecommendPrompt({ state, focus, itemsData, champsData }) {
+export function buildMatchBuyAndPlanPrompt({ state, focus, itemsData }) {
   const system = `
-    Eres un asistente experto en League of Legends (patch y meta pueden variar).
-    Tu objetivo es recomendar itemización inmediata usando SOLO el JSON entregado.
-    Reglas:
-    - Tus respuestas son en español.
-    - NO inventes datos. Si falta info, dilo explícitamente en "uncertainty".
-    - Usa "state.me", "state.enemies", "focus.phase", "focus.buildVs/target/threats".
-    - Recomienda 1 compra inmediata y 1 siguiente compra (secuencial).
-    - Debes devolver SOLO JSON válido. Sin markdown, sin texto extra.
-    - Si recomiendas un item, incluye itemId (string) y nombre exacto según itemsData.
-    - Considera oro disponible (state.me.gold) y componentes si es posible.`;
+Eres un experto en League of Legends (itemización + macro).
 
-  const user = [
-    "INPUT_JSON:",
-    JSON.stringify({ state, focus, itemsData, champsData }, null, 2),
-    "",
-    "OUTPUT_SCHEMA (return exactly this structure):",
-    JSON.stringify({
-      patchAssumption: "string|null",
-      phase: "early|mid|late",
-      recommended: {
-        buyNow: { itemId: "string", name: "string", why: ["string"] },
-        next: { itemId: "string", name: "string", why: ["string"] }
-      },
-      alternatives: [
-        { itemId: "string", name: "string", when: "string", why: ["string"] }
-      ],
-      uncertainty: ["string"]
-    }, null, 2),
-    "",
-    "Task:",
-    "- Fill OUTPUT_SCHEMA based on INPUT_JSON.",
-    "- 'why' must be 3–5 bullet strings, anchored to focus + match state.",
-    "- If you cannot safely pick an itemId, add uncertainty and choose a conservative alternative."
-  ].join("\n");
+Debes recomendar:
+- BUY NOW TOP 3: cada opción es un ÍTEM COMPLETO objetivo (ej: Cortasendas),
+  y además debes indicar qué COMPONENTE comprar AHORA para avanzar hacia ese ítem.
+- NEXT BUY TOP 3: objetivos de ítems completos para los próximos recalls.
+- Consejo macro según si voy ahead/even/behind.
 
-  return { system, user };
-}
-export function specificRecommendPrompt({ state, focus, itemsData, champsData }) {
-  const system = `
-  Eres un experto en itemización de League of Legends.
-  Trabajas como un motor de recomendaciones: preciso, conservador y verificable.
-  Reglas:
-  - Tus respuestas son en español.
-  - Usa SOLO el JSON proporcionado.
-  - No asumas runas, summoners, matchups o builds externas si no aparecen en el JSON.
-  - Si el oro no alcanza para el ítem final, recomienda el MEJOR componente comprable ahora.
-  - Devuelve SOLO JSON válido.`;
+Reglas estrictas:
+- Responde en español.
+- Usa SOLO el JSON entregado (state, focus, itemsData).
+- NO inventes campeones, stats, efectos, ítems ni nombres.
+- Cada itemId que devuelvas DEBE existir como clave en itemsData.
+- NO recomiendes ítems de inicio (Doran items, support starters).
+- Devuelve SOLO JSON válido (sin markdown, sin \`\`\`).
+
+Definiciones (usa itemsData):
+- Ítem COMPLETO/FINAL: itemsData[itemId].into es vacío ([]), null o no existe.
+- COMPONENTE: ítem que aparece en itemsData[targetItemId].from.
+
+BUY NOW TOP 3:
+- Son alternativas (NO se compran juntas).
+- targetItem debe ser ÍTEM COMPLETO/FINAL (no componente).
+- firstComponentNow debe:
+  - estar en itemsData[targetItemId].from
+  - ser comprable con state.me.gold
+  - NO estar ya en state.me.items
+- Si para un targetItem no existe ningún componente comprable ahora, NO lo elijas como buyNow.
+
+NEXT BUY TOP 3:
+- Son ÍTEMS COMPLETOS/FINALES.
+- buildPath:
+  - debe usar SOLO componentes de itemsData[itemId].from
+  - si no puedes inferir con certeza, buildPath = [] y buildPathConfidence = "low".
+
+Estado de partida:
+- Si faltan datos para decidir ahead/even/behind, usa "even" y explícitalo en gameStateEvidence.note.
+`;
 
   const user = [
     "CONTEXT_JSON:",
-    JSON.stringify({ state, focus, itemsData, champsData }, null, 2),
-    "",
-    "Return JSON with this schema:",
-    JSON.stringify({
-      phase: "early|mid|late",
-      gold: "number|null",
-      buyNow: {
-        type: "component|fullItem",
-        itemId: "string",
-        name: "string",
-        costHint: "number|null",
-        why: ["string"]
-      },
-      next: {
-        itemId: "string",
-        name: "string",
-        why: ["string"]
-      },
-      reasoning: {
-        buildVs: ["string"],
-        threats: ["string"],
-        target: ["string"]
-      },
-      uncertainty: ["string"]
-    }, null, 2),
-    "",
-    "Task details:",
-    "- 'buyNow' must be something the player can reasonably buy now given gold; if gold is null, say so in uncertainty and pick a safe component.",
-    "- 'reasoning' must reference champs in focus (buildVs/threats/target).",
-  ].join("\n");
-
-  return { system, user };
-}
-export function buildCompareItemsPrompt({
-  state,
-  focus,
-  itemsData,
-  champsData,
-  candidates, // { aId: "3031", bId: "3085" } o { aId, bId, note }
-}) {
-  const system = `
-  Eres un experto en League of Legends enfocado en itemización.
-  Tu tarea es comparar dos ítems candidatos y decidir cuál conviene COMPRAR AHORA.
-  Reglas:
-  - Tus respuestas son en español.
-  - Usa SOLO el JSON entregado.
-  - No inventes estadísticas ni efectos que no estén en itemsData.
-  - La decisión debe depender de: phase, threats/buildVs/target en focus, y estado del jugador.
-  - Devuelve SOLO JSON válido. Sin markdown.
-  - Incluye tradeoffs y condiciones ("si pasa X, entonces el otro es mejor").`;
-
-  const user = [
-    "INPUT_JSON:",
-    JSON.stringify({ state, focus, itemsData, champsData, candidates }, null, 2),
+    JSON.stringify({ state, focus, itemsData }, null, 2),
     "",
     "OUTPUT_SCHEMA:",
     JSON.stringify({
       phase: "early|mid|late",
-      pick: { itemId: "string", name: "string" },
-      runnerUp: { itemId: "string", name: "string" },
-      reasons: [
-        "string", "string", "string", "string"
+      myChampion: "string",
+      detectedEnemiesUsed: ["string"],
+
+      gameStateTag: "ahead|even|behind",
+      gameStateEvidence: {
+        goldDiff: "number|null",
+        csDiff: "number|null",
+        levelDiff: "number|null",
+        note: "string"
+      },
+
+      buyNowTop3: [
+        {
+          rank: 1,
+          targetItem: { itemId: "string", name: "string" },
+          firstComponentNow: { itemId: "string", name: "string", cost: 0 },
+          whyTarget: "string",
+          whyFirstComponent: "string",
+          whenToChoose: "string"
+        }
       ],
-      tradeoffs: [
-        { if: "string", thenBetter: { itemId: "string", name: "string" }, why: "string" }
+
+      nextBuyTop3: [
+        {
+          rank: 1,
+          itemId: "string",
+          name: "string",
+          whyNext: "string",
+          buildPath: [{ step: 1, itemId: "string", name: "string", cost: 0 }],
+          buildPathConfidence: "high|medium|low"
+        }
       ],
-      uncertainty: ["string"],
+
+      playAdvice: {
+        winCondition: "string",
+        ifAhead: ["string"],
+        ifEven: ["string"],
+        ifBehind: ["string"]
+      },
+
+      farmPlan: {
+        csStatus: "good|ok|bad|unknown",
+        actions: ["string"],
+        avoid: ["string"]
+      },
+
+      uncertainty: ["string"]
     }, null, 2),
     "",
     "Task:",
-    "- Decide pick vs runnerUp.",
-    "- reasons: exactamente 4 razones, concretas y basadas en focus+estado.",
-    "- tradeoffs: 1 a 3 reglas tipo 'si...' para cuándo el runnerUp gana."
+    "- buyNowTop3: EXACTAMENTE 3 opciones, ranks 1..3.",
+    "- En buyNowTop3: targetItem.itemId debe ser FINAL (itemsData[targetItem.itemId].into vacío/no existe).",
+    "- En buyNowTop3: firstComponentNow.itemId debe estar en itemsData[targetItem.itemId].from y cost <= state.me.gold.",
+    "- En buyNowTop3: si un targetItem no tiene componente comprable ahora, descártalo.",
+    "- nextBuyTop3: EXACTAMENTE 3 objetivos (ítems finales).",
+    "- detectedEnemiesUsed: lista enemigos EXACTOS desde state.enemies (no inventes)."
+  ].join("\n");
+
+  return { system, user };
+}
+
+
+export function buildCompareItemsPrompt({
+  state,
+  focus,
+  itemsData,
+  candidates, // array de itemIds: ["3031", "3085", "3072", ...]
+}) {
+  const system = `
+  Eres un experto en League of Legends enfocado en itemización.
+  Tu tarea es comparar N ítems candidatos y decidir cuál es el MEJOR para comprar ahora.
+  Reglas:
+  - Tus respuestas son en español.
+  - Usa SOLO el JSON entregado.
+  - No inventes estadísticas ni efectos que no estén en itemsData.
+  - Solo considera ítems completos/finales, no componentes.
+  - La decisión debe depender de: phase, threats/buildVs/target en focus, y estado del jugador.
+  - Devuelve SOLO JSON válido. Sin markdown.
+  - Explica detalladamente por qué el ítem elegido es mejor que los demás.`;
+
+  const user = [
+    "INPUT_JSON:",
+    JSON.stringify({ state, focus, itemsData, candidates }, null, 2),
+    "",
+    "OUTPUT_SCHEMA:",
+    JSON.stringify({
+      phase: "early|mid|late",
+      myChampion: "string",
+      candidatesAnalyzed: [
+        { itemId: "string", name: "string", prosForThisMatch: ["string"], consForThisMatch: ["string"] }
+      ],
+      recommendation: {
+        itemId: "string",
+        name: "string",
+        explanation: "string (explicación detallada de por qué este ítem es el mejor de todos los comparados)"
+      },
+      alternativeOrder: [
+        { rank: 2, itemId: "string", name: "string", whenBetter: "string" }
+      ],
+      uncertainty: ["string"]
+    }, null, 2),
+    "",
+    "Task:",
+    "- Analiza cada ítem en 'candidates' y llena 'candidatesAnalyzed' con pros/cons específicos para esta partida.",
+    "- Elige el mejor y ponlo en 'recommendation' con explicación detallada.",
+    "- En 'alternativeOrder' ordena los demás ítems del segundo mejor al peor, indicando cuándo serían mejor opción."
   ].join("\n");
 
   return { system, user };
