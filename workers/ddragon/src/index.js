@@ -2,7 +2,7 @@
 import { handleHealth } from "./routes/health.js";
 import { route } from "./lib/router.js";
 import { test } from "./routes/test.js";
-import { handleDataFromDdragon } from "./routes/ddragon-data.js";
+import { handleDataFromDdragon, getChampsData } from "./routes/ddragon-data.js";
 import { handleItemsWithSignals } from "./routes/items-signals.js";
 
 
@@ -13,6 +13,7 @@ export default {
 			["GET", "/test", test],
 			["GET", "/ddragon-data", handleDataFromDdragon],
 			["GET", "/items-signals", handleItemsWithSignals],
+			["GET", "/champs-data", getChampsData],
 
 
 		]);

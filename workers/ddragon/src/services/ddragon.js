@@ -48,9 +48,9 @@ export async function getDataFromLastVersion(env) {
   const version = await getLatestVersion();
 
   const cachedItems = await env.DDRAGON_CACHE.get(`items-${version}`, "json");
-  if (cachedItems) return cachedItems;
   const cachedChamps = await env.DDRAGON_CACHE.get(`champs-${version}`, "json");
-  if (cachedChamps) return cachedChamps;
+
+  if ((cachedChamps && cachedChamps.version === version) && (cachedItems && cachedItems.version === version)) return {version, champsData: cachedChamps, itemsData: cachedItems};
 
   const previousVersion = await env.DDRAGON_CACHE.get("latest-version");
   if (previousVersion && previousVersion !== version) {

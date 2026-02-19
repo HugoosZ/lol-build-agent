@@ -1,0 +1,1798 @@
+{
+  "1001": {
+    "id": "1001",
+    "name": "Botas",
+    "description": "<mainText><stats><attention>25</attention> de velocidad de movimiento</stats><br><br></mainText>",
+    "cost": 300,
+    "from": [],
+    "into": [
+      "3005",
+      "3047",
+      "3006",
+      "3009",
+      "3010",
+      "3020",
+      "3111",
+      "3117",
+      "3158"
+    ],
+    "tags": [
+      "Boots"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 25
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1004": {
+    "id": "1004",
+    "name": "Amuleto de las hadas",
+    "description": "<mainText><stats><attention>50%</attention> de regeneración de maná básica</stats><br><br></mainText>",
+    "cost": 200,
+    "from": [],
+    "into": [
+      "3114",
+      "3012",
+      "4642"
+    ],
+    "tags": [
+      "ManaRegen"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1006": {
+    "id": "1006",
+    "name": "Perla de rejuvenecimiento",
+    "description": "<mainText><stats><attention>100%</attention> de regeneración de vida básica</stats><br><br></mainText>",
+    "cost": 300,
+    "from": [],
+    "into": [
+      "3109",
+      "3211",
+      "323109",
+      "3801"
+    ],
+    "tags": [
+      "HealthRegen"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.06,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1011": {
+    "id": "1011",
+    "name": "Cinturón de gigante",
+    "description": "<mainText><stats><attention>350</attention> de vida</stats><br><br></mainText>",
+    "cost": 900,
+    "from": [
+      "1028"
+    ],
+    "into": [
+      "4637",
+      "3084",
+      "2525",
+      "3039",
+      "3083",
+      "3116",
+      "3119",
+      "3143",
+      "323119",
+      "3748",
+      "6665",
+      "6609",
+      "6667",
+      "8001"
+    ],
+    "tags": [
+      "Health"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 350
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.35416666666666663,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1018": {
+    "id": "1018",
+    "name": "Capa de agilidad",
+    "description": "<mainText><stats><attention>15%</attention> de probabilidad de impacto crítico</stats><br><br></mainText>",
+    "cost": 600,
+    "from": [],
+    "into": [
+      "123430",
+      "667666",
+      "3031",
+      "3086",
+      "6670",
+      "3033",
+      "3039",
+      "3508",
+      "3095",
+      "3097",
+      "6676"
+    ],
+    "tags": [
+      "CriticalStrike"
+    ],
+    "stats": {
+      "FlatCritChanceMod": 0.15
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.195,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1026": {
+    "id": "1026",
+    "name": "Vara explosiva",
+    "description": "<mainText><stats><attention>45</attention> de poder de habilidad</stats><br><br></mainText>",
+    "cost": 850,
+    "from": [],
+    "into": [
+      "2522",
+      "3100",
+      "326621",
+      "4637",
+      "3135",
+      "3165",
+      "3115",
+      "2510",
+      "3116",
+      "3118",
+      "326657",
+      "6621",
+      "6657"
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 45
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.5125,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1027": {
+    "id": "1027",
+    "name": "Cristal de zafiro",
+    "description": "<mainText><stats><attention>300</attention> de maná</stats><br><br></mainText>",
+    "cost": 300,
+    "from": [],
+    "into": [
+      "3024",
+      "3802",
+      "3803"
+    ],
+    "tags": [
+      "Mana"
+    ],
+    "stats": {
+      "FlatMPPoolMod": 300
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1028": {
+    "id": "1028",
+    "name": "Cristal de rubí",
+    "description": "<mainText><stats><attention>150</attention> de vida</stats><br><br></mainText>",
+    "cost": 400,
+    "from": [],
+    "into": [
+      "3742",
+      "1011",
+      "323107",
+      "2021",
+      "323222",
+      "323075",
+      "326617",
+      "3012",
+      "3147",
+      "3211",
+      "2502",
+      "322526",
+      "2526",
+      "3023",
+      "3044",
+      "3053",
+      "3066",
+      "3067",
+      "3075",
+      "3152",
+      "3161",
+      "3801",
+      "3803",
+      "4401",
+      "4635",
+      "6035",
+      "6610",
+      "6660",
+      "6662"
+    ],
+    "tags": [
+      "Health"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 150
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.2375,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1029": {
+    "id": "1029",
+    "name": "Armadura de tela",
+    "description": "<mainText><stats><attention>15</attention> de armadura</stats><br><br></mainText>",
+    "cost": 300,
+    "from": [],
+    "into": [
+      "2421",
+      "2420",
+      "1031",
+      "3190",
+      "323050",
+      "323190",
+      "2019",
+      "3193",
+      "3047",
+      "3024",
+      "3050",
+      "2524",
+      "3023",
+      "3076",
+      "3082",
+      "3105"
+    ],
+    "tags": [
+      "Armor"
+    ],
+    "stats": {
+      "FlatArmorMod": 15
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.2375,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1031": {
+    "id": "1031",
+    "name": "Chaleco de cadenas",
+    "description": "<mainText><stats><attention>40</attention> de armadura</stats><br><br></mainText>",
+    "cost": 800,
+    "from": [
+      "1029"
+    ],
+    "into": [
+      "3742",
+      "3068",
+      "323002",
+      "3109",
+      "323075",
+      "2502",
+      "3002",
+      "3075",
+      "323109",
+      "6665",
+      "6662"
+    ],
+    "tags": [
+      "Armor"
+    ],
+    "stats": {
+      "FlatArmorMod": 40
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.3833333333333333,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1033": {
+    "id": "1033",
+    "name": "Manto de anulación de magia",
+    "description": "<mainText><stats><attention>20</attention> de resistencia mágica</stats><br><br></mainText>",
+    "cost": 400,
+    "from": [],
+    "into": [
+      "1057",
+      "3140",
+      "3190",
+      "323050",
+      "323190",
+      "3193",
+      "3050",
+      "3001",
+      "3211",
+      "2524",
+      "3155",
+      "3105",
+      "3111",
+      "4632"
+    ],
+    "tags": [
+      "SpellBlock"
+    ],
+    "stats": {
+      "FlatSpellBlockMod": 20
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.27,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1036": {
+    "id": "1036",
+    "name": "Espada larga",
+    "description": "<mainText><stats><attention>10</attention> de daño de ataque</stats><br><br></mainText>",
+    "cost": 350,
+    "from": [],
+    "into": [
+      "1053",
+      "4003",
+      "6701",
+      "2015",
+      "2019",
+      "2021",
+      "3077",
+      "6670",
+      "3133",
+      "323004",
+      "3142",
+      "3004",
+      "2523",
+      "3032",
+      "3035",
+      "3044",
+      "3051",
+      "3155",
+      "6690",
+      "3123",
+      "3134",
+      "6699",
+      "6671",
+      "6692"
+    ],
+    "tags": [
+      "Damage",
+      "Lane"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 10
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.18666666666666665,
+      "burstAp": 0.0,
+      "burstAd": 0.1716666666666667,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1037": {
+    "id": "1037",
+    "name": "Pico",
+    "description": "<mainText><stats><attention>25</attention> de daño de ataque</stats><br><br></mainText>",
+    "cost": 875,
+    "from": [],
+    "into": [
+      "667666",
+      "3071",
+      "6333",
+      "3031",
+      "3153",
+      "6701",
+      "2020",
+      "2517",
+      "6695",
+      "2523",
+      "3053",
+      "3072",
+      "3087",
+      "3124",
+      "3181",
+      "3139",
+      "3161",
+      "6029",
+      "6035",
+      "6673",
+      "6676",
+      "6692"
+    ],
+    "tags": [
+      "Damage"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 25
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.2866666666666667,
+      "burstAp": 0.0,
+      "burstAd": 0.3091666666666667,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1038": {
+    "id": "1038",
+    "name": "Espadón",
+    "description": "<mainText><stats><attention>40</attention> de daño de ataque</stats><br><br></mainText>",
+    "cost": 1300,
+    "from": [],
+    "into": [
+      "3031",
+      "3026",
+      "3032",
+      "3072",
+      "3095",
+      "3097",
+      "4403",
+      "6671"
+    ],
+    "tags": [
+      "Damage"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 40
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.38666666666666666,
+      "burstAp": 0.0,
+      "burstAd": 0.4466666666666667,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1042": {
+    "id": "1042",
+    "name": "Daga",
+    "description": "<mainText><stats><attention>10%</attention> de velocidad de ataque</stats><br><br></mainText>",
+    "cost": 250,
+    "from": [],
+    "into": [
+      "1043",
+      "3086",
+      "2510",
+      "3006",
+      "3046",
+      "3051",
+      "3073",
+      "3131",
+      "3144",
+      "6631",
+      "6675",
+      "6677"
+    ],
+    "tags": [
+      "AttackSpeed"
+    ],
+    "stats": {
+      "PercentAttackSpeedMod": 0.1
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.18,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1043": {
+    "id": "1043",
+    "name": "Arco curvo",
+    "description": "<mainText><stats><attention>15%</attention> de velocidad de ataque</stats><br><br><passive>Picadura</passive><br>Los ataques infligen <physicalDamage>15 de daño físico adicional</physicalDamage> <OnHit>al golpear</OnHit>.</mainText>",
+    "cost": 700,
+    "from": [
+      "1042"
+    ],
+    "into": [
+      "3302",
+      "3153",
+      "3115",
+      "6672",
+      "3091",
+      "3124"
+    ],
+    "tags": [
+      "AttackSpeed",
+      "OnHit"
+    ],
+    "stats": {
+      "PercentAttackSpeedMod": 0.15
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.29,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.1,
+      "antiHeal": 0.0
+    }
+  },
+  "1052": {
+    "id": "1052",
+    "name": "Tomo amplificador",
+    "description": "<mainText><stats><attention>20</attention> de poder de habilidad</stats><br><br></mainText>",
+    "cost": 400,
+    "from": [],
+    "into": [
+      "3113",
+      "2421",
+      "2420",
+      "3145",
+      "124011",
+      "4637",
+      "3916",
+      "6656",
+      "324005",
+      "3147",
+      "3146",
+      "3802",
+      "2508",
+      "326616",
+      "3108",
+      "3116",
+      "3124",
+      "323504",
+      "4630",
+      "4628",
+      "4632",
+      "4635",
+      "4642",
+      "4644"
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 20
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.36666666666666664,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1053": {
+    "id": "1053",
+    "name": "Cetro vampírico",
+    "description": "<mainText><stats><attention>15</attention> de daño de ataque<br><attention>7%</attention> de robo de vida</stats><br><br></mainText>",
+    "cost": 900,
+    "from": [
+      "1036"
+    ],
+    "into": [
+      "3153",
+      "3146",
+      "3072",
+      "3074",
+      "3139",
+      "4403"
+    ],
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 15,
+      "PercentLifeStealMod": 0.07
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.22,
+      "burstAp": 0.0,
+      "burstAd": 0.21750000000000003,
+      "sustain": 0.42750000000000005,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1054": {
+    "id": "1054",
+    "name": "Escudo de Doran",
+    "description": "<mainText><stats><attention>110</attention> de vida</stats><br><br><passive>Concentración inquebrantable</passive><br>Restaura <healing>4 de vida</healing> cada 5 s.<br>Tras recibir daño de un campeón, restaura <healing>vida</healing> a lo largo de 8 s.<br><br><passive>Mano amiga</passive><br>Los ataques infligen <physicalDamage>5 de daño físico adicional</physicalDamage> a los súbditos.</mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 110,
+      "FlatHPRegenMod": 0.8
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.21416666666666667,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.06,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1055": {
+    "id": "1055",
+    "name": "Espada de Doran",
+    "description": "<mainText><stats><attention>10</attention> de daño de ataque<br><attention>80</attention> de vida<br><attention>2.5%</attention> de omnisucción</stats><br><br></mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Lane"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 80,
+      "FlatPhysicalDamageMod": 10
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.19666666666666666,
+      "physicalDps": 0.18666666666666665,
+      "burstAp": 0.0,
+      "burstAd": 0.1716666666666667,
+      "sustain": 0.32,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1056": {
+    "id": "1056",
+    "name": "Anillo de Doran",
+    "description": "<mainText><stats><attention>18</attention> de poder de habilidad<br><attention>90</attention> de vida</stats><br><br><passive>Drenaje</passive><br>Recupera <scaleMana>1 de maná</scaleMana> cada segundo, que aumenta hasta <scaleMana>2 de maná</scaleMana> por segundo durante 5 s tras infligir daño a un campeón enemigo. Si no puedes obtener maná, cura <healing>un 45%</healing> de este valor.<br><br><passive>Mano amiga</passive><br>Los ataques infligen <physicalDamage>5 de daño físico adicional</physicalDamage> a los súbditos.</mainText>",
+    "cost": 400,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 90,
+      "FlatMagicDamageMod": 18
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.20249999999999999,
+      "physicalDps": 0.0,
+      "burstAp": 0.355,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1057": {
+    "id": "1057",
+    "name": "Capa negatrón",
+    "description": "<mainText><stats><attention>45</attention> de resistencia mágica</stats><br><br></mainText>",
+    "cost": 850,
+    "from": [
+      "1033"
+    ],
+    "into": [
+      "2504",
+      "8020",
+      "328020",
+      "3091",
+      "6665",
+      "4401"
+    ],
+    "tags": [
+      "SpellBlock"
+    ],
+    "stats": {
+      "FlatSpellBlockMod": 45
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.42000000000000004,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1058": {
+    "id": "1058",
+    "name": "Vara innecesariamente grande",
+    "description": "<mainText><stats><attention>65</attention> de poder de habilidad</stats><br><br></mainText>",
+    "cost": 1200,
+    "from": [],
+    "into": [
+      "3157",
+      "4645",
+      "3089",
+      "3102",
+      "3128",
+      "4403"
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 65
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.6291666666666667,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1082": {
+    "id": "1082",
+    "name": "Sello oscuro",
+    "description": "<mainText><stats><attention>15</attention> de poder de habilidad<br><attention>50</attention> de vida</stats><br><br><passive>Gloria</passive><br>Los <keyword>asesinatos y asistencias</keyword> otorgan <passive>Gloria</passive>, hasta un máximo de 10. Se pierde 5 de <passive>Gloria</passive> al morir.<br>Obtienes <scaleAP>4 de poder de habilidad</scaleAP> por <passive>Gloria</passive>.</mainText>",
+    "cost": 350,
+    "from": [],
+    "into": [
+      "3041"
+    ],
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 50,
+      "FlatMagicDamageMod": 15
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.17916666666666667,
+      "physicalDps": 0.0,
+      "burstAp": 0.3375,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1083": {
+    "id": "1083",
+    "name": "Preferencia",
+    "description": "<mainText><stats><attention>7</attention> de daño de ataque</stats><br><br><passive>Segar</passive><br>Restaura <healing>3 de vida</healing> <OnHit>al golpear</OnHit>.<br>Asesinar súbditos otorga <gold>1 de oro</gold>, hasta un máximo de <gold>100</gold>. Alcanzar el límite otorga <gold>350 de oro</gold>.<br></mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Damage",
+      "OnHit",
+      "Lane"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 7
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.24666666666666665,
+      "burstAp": 0.0,
+      "burstAd": 0.14416666666666667,
+      "sustain": 0.0,
+      "antiTank": 0.1,
+      "antiHeal": 0.0
+    }
+  },
+  "1101": {
+    "id": "1101",
+    "name": "Cachorro de Garra ígnea",
+    "description": "<mainText><stats></stats><br><br><passive>Compañeros de la jungla</passive><br>Invoca un <font color='#DD2E2E'>Garra ígnea</font> que te ayudará a enfrentarte a los monstruos.<br><br><passive>Tajo de Garra ígnea</passive><br>El compañero crece conforme cazas monstruos, lo que potencia <spellName>Aplastar</spellName>. Cuando termina de crecer, potencia cada cierto tiempo tu próximo ataque o habilidad para que queme a los enemigos y los <status>ralentice</status>. Asesinar a monstruos gigantes hace que vuelva a estar disponible al instante.</mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1102": {
+    "id": "1102",
+    "name": "Cría de Caminabrisas",
+    "description": "<mainText><stats></stats><br><br><passive>Compañeros de la jungla</passive><br>Invoca un <font color='#38A8E8'>Caminabrisas</font> que te ayudará a enfrentarte a los monstruos.<br><br><passive>Andares de Caminabrisas</passive><br>El compañero crece conforme cazas monstruos, lo que potencia <spellName>Aplastar</spellName>. Cuando termina de crecer, otorga <speed>velocidad de movimiento</speed> al entrar en la maleza, lo que aumenta al asesinar a monstruos gigantes.</mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1103": {
+    "id": "1103",
+    "name": "Brote de Brincamontes",
+    "description": "<mainText><stats></stats><br><br><passive>Compañeros de la jungla</passive><br>Invoca una <font color='#1CA935'>mascota de la jungla</font> que te ayudará a enfrentarte a los monstruos.<br><br><passive>Valor de Brincamontes</passive><br>El compañero crece conforme cazas monstruos, lo que potencia <spellName>Aplastar</spellName>. Cuando termina de crecer, se completa la misión de la jungla. </mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1105": {
+    "id": "1105",
+    "name": "Brote de Brincamontes",
+    "description": "<mainText><stats></stats><br><br><passive>Compañeros de la jungla</passive><br>Invoca una <font color='#1CA935'>mascota de la jungla</font> que te ayudará a enfrentarte a los monstruos.<br><br><passive>Valor de Brincamontes</passive><br>El compañero crece conforme cazas monstruos, lo que potencia <spellName>Aplastar</spellName>. Cuando termina de crecer, se completa la misión de la jungla. </mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1106": {
+    "id": "1106",
+    "name": "Cría de Caminabrisas",
+    "description": "<mainText><stats></stats><br><br><passive>Compañeros de la jungla</passive><br>Invoca un <font color='#38A8E8'>Caminabrisas</font> que te ayudará a enfrentarte a los monstruos.<br><br><passive>Andares de Caminabrisas</passive><br>El compañero crece conforme cazas monstruos, lo que potencia <spellName>Aplastar</spellName>. Cuando termina de crecer, otorga <speed>velocidad de movimiento</speed> al entrar en la maleza, lo que aumenta al asesinar a monstruos gigantes.</mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "1107": {
+    "id": "1107",
+    "name": "Cachorro de Garra ígnea",
+    "description": "<mainText><stats></stats><br><br><passive>Compañeros de la jungla</passive><br>Invoca un <font color='#DD2E2E'>Garra ígnea</font> que te ayudará a enfrentarte a los monstruos.<br><br><passive>Tajo de Garra ígnea</passive><br>El compañero crece conforme cazas monstruos, lo que potencia <spellName>Aplastar</spellName>. Cuando termina de crecer, potencia cada cierto tiempo tu próximo ataque o habilidad para que queme a los enemigos y los <status>ralentice</status>. Asesinar a monstruos gigantes hace que vuelva a estar disponible al instante.</mainText>",
+    "cost": 450,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2003": {
+    "id": "2003",
+    "name": "Poción de vida",
+    "description": "<mainText><stats></stats><br><br><active>Utilizar</active><br>Restaura <healing>120 de vida</healing> a lo largo de 15 s.</mainText>",
+    "cost": 50,
+    "from": [],
+    "into": [],
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Lane",
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.06,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2019": {
+    "id": "2019",
+    "name": "Sello de acero",
+    "description": "<mainText><stats><attention>15</attention> de daño de ataque<br><attention>30</attention> de armadura</stats><br><br></mainText>",
+    "cost": 1100,
+    "from": [
+      "1029",
+      "1036",
+      "1029"
+    ],
+    "into": [
+      "6333",
+      "6700",
+      "3026"
+    ],
+    "tags": [
+      "Armor",
+      "Damage"
+    ],
+    "stats": {
+      "FlatArmorMod": 30,
+      "FlatPhysicalDamageMod": 15
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.32499999999999996,
+      "physicalDps": 0.22,
+      "burstAp": 0.0,
+      "burstAd": 0.21750000000000003,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2020": {
+    "id": "2020",
+    "name": "Embrutecedor",
+    "description": "<mainText><stats><attention>25</attention> de daño de ataque<br><attention>10</attention> de velocidad de habilidades<br><attention>5</attention> de letalidad</stats><br><br></mainText>",
+    "cost": 1337,
+    "from": [
+      "2022",
+      "1037"
+    ],
+    "into": [
+      "6698",
+      "2520",
+      "6699",
+      "6696"
+    ],
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 25
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.2866666666666667,
+      "burstAp": 0.0,
+      "burstAd": 0.4891666666666667,
+      "sustain": 0.0,
+      "antiTank": 0.18,
+      "antiHeal": 0.0
+    }
+  },
+  "2021": {
+    "id": "2021",
+    "name": "Tuneladora",
+    "description": "<mainText><stats><attention>15</attention> de daño de ataque<br><attention>250</attention> de vida</stats><br><br></mainText>",
+    "cost": 1150,
+    "from": [
+      "1036",
+      "1028"
+    ],
+    "into": [
+      "2501",
+      "3053",
+      "3073",
+      "3814",
+      "3181",
+      "3161",
+      "3748",
+      "6610"
+    ],
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatPhysicalDamageMod": 15
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.29583333333333334,
+      "physicalDps": 0.22,
+      "burstAp": 0.0,
+      "burstAd": 0.21750000000000003,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2022": {
+    "id": "2022",
+    "name": "Mota brillante",
+    "description": "<mainText><stats><attention>5</attention> de velocidad de habilidades</stats><br><br></mainText>",
+    "cost": 250,
+    "from": [],
+    "into": [
+      "2020",
+      "3024",
+      "3133",
+      "3802",
+      "3057",
+      "3067",
+      "3108",
+      "3158",
+      "4642",
+      "6660"
+    ],
+    "tags": [
+      "CooldownReduction"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2031": {
+    "id": "2031",
+    "name": "Poción reutilizable",
+    "description": "<mainText><stats></stats><br><br><active>Activar</active> (2 cargas)<br>Restaura <healing>100 de vida</healing> a lo largo de 12 s. <br>Se rellena al visitar la tienda.</mainText>",
+    "cost": 150,
+    "from": [],
+    "into": [
+      "2033"
+    ],
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Active",
+      "Lane",
+      "Jungle"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.06,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2051": {
+    "id": "2051",
+    "name": "Cuerno del guardián",
+    "description": "<mainText><stats><attention>150</attention> de vida</stats><br><br><br><li><passive>Recuperación:</passive> Restaura <healing>20 de vida</healing> cada 5 s.<li><passive>Impávido:</passive> Bloquea 15 de daño de ataques y habilidades de campeones (25% de efectividad contra habilidades de daño prolongado).<br></mainText>",
+    "cost": 950,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 150,
+      "FlatHPRegenMod": 4
+    },
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.2375,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.06,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2055": {
+    "id": "2055",
+    "name": "Guardián de control",
+    "description": "<mainText><stats></stats><br><br><active>Utilizar</active><br>Coloca un guardián de control que otorga visión y revela los guardianes invisibles y las trampas enemigas, así como a los enemigos <keywordStealth>camuflados</keywordStealth>.</mainText>",
+    "cost": 75,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Consumable",
+      "Lane",
+      "Stealth",
+      "Vision"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2065": {
+    "id": "2065",
+    "name": "Canción de batalla de Shurelya",
+    "description": "<mainText><stats><attention>50</attention> de poder de habilidad<br><attention>15</attention> de velocidad de habilidades<br><attention>4%</attention> de velocidad de movimiento<br><attention>125%</attention> de regeneración de maná básica</stats><br><br><active>Discurso inspirador</active><br>Otorga un <speed>30% de velocidad de movimiento</speed> a los aliados cercanos durante 4 s.</mainText>",
+    "cost": 2200,
+    "from": [
+      "3113",
+      "4642"
+    ],
+    "into": [],
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 50,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.5416666666666667,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2138": {
+    "id": "2138",
+    "name": "Elixir de hierro",
+    "description": "<mainText><stats></stats><br><br><active>Utilizar</active><br>Obtienes <scaleHealth>300 de vida</scaleHealth>, un 25% de tenacidad y aumentas de tamaño durante 3 min. Mientras está activo, dejas atrás una senda que aumenta un <speed>15% la velocidad de movimiento</speed> de los campeones aliados.</mainText>",
+    "cost": 500,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Health",
+      "Consumable",
+      "NonbootsMovement",
+      "Tenacity"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.15,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2139": {
+    "id": "2139",
+    "name": "Elixir de brujería",
+    "description": "<mainText><stats></stats><br><br><active>Utilizar</active><br>Obtienes <scaleAP>50 de poder de habilidad</scaleAP> y un <scaleMana>15% de regeneración de maná</scaleMana> durante 3 min. Mientras está activo, al dañar a un campeón o una torreta, infliges <trueDamage>25 de daño verdadero adicional</trueDamage> (5 s contra campeones).</mainText>",
+    "cost": 500,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Consumable",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.25,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2140": {
+    "id": "2140",
+    "name": "Elixir de cólera",
+    "description": "<mainText><stats></stats><br><br><active>Utilizar</active><br>Obtienes <scaleAD>30 de daño de ataque</scaleAD> y un <lifeSteal>12% de succión física</lifeSteal> contra campeones durante 3 min.</mainText>",
+    "cost": 500,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Consumable",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.12,
+      "burstAp": 0.0,
+      "burstAd": 0.08,
+      "sustain": 0.32,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2141": {
+    "id": "2141",
+    "name": "Zumito de la risa",
+    "description": "<mainText><stats></stats><br><br><rules>Te ayuda a ponerte en cabeza.</rules><active>Activa - Consumir:</active> Este zumo no hace nada.<br></mainText>",
+    "cost": 300,
+    "from": [],
+    "into": [],
+    "tags": [
+      "Damage",
+      "Consumable"
+    ],
+    "stats": {},
+    "depth": 0,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.12,
+      "burstAp": 0.0,
+      "burstAd": 0.08,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2420": {
+    "id": "2420",
+    "name": "Brazalete de la buscadora",
+    "description": "<mainText><stats><attention>40</attention> de poder de habilidad<br><attention>25</attention> de armadura</stats><br><br><active>Tiempo detenido</active> (un solo uso)<br>Entras en <keyword>estasis</keyword> durante 2.5 s.</mainText>",
+    "cost": 1600,
+    "from": [
+      "1052",
+      "1029",
+      "1052"
+    ],
+    "into": [
+      "3157"
+    ],
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 40,
+      "FlatArmorMod": 25
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.29583333333333334,
+      "physicalDps": 0.0,
+      "burstAp": 0.4833333333333333,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2421": {
+    "id": "2421",
+    "name": "Brazalete quebrado",
+    "description": "<mainText><stats><attention>40</attention> de poder de habilidad<br><attention>25</attention> de armadura</stats><br><br><passive>Tiempo fragmentado</passive><br>El Brazalete está estropeado, pero, aun así, puede mejorarse.<br><br><rules>Después de romper un Brazalete, el tendero solo te ofrecerá <rarityGeneric>Brazaletes quebrados.</rarityGeneric></rules><br><br></mainText>",
+    "cost": 1600,
+    "from": [
+      "1052",
+      "1029",
+      "1052"
+    ],
+    "into": [
+      "3157"
+    ],
+    "tags": [],
+    "stats": {
+      "FlatMagicDamageMod": 40,
+      "FlatArmorMod": 25
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.14583333333333334,
+      "physicalDps": 0.0,
+      "burstAp": 0.2333333333333333,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2501": {
+    "id": "2501",
+    "name": "Sangría del soberano",
+    "description": "<mainText><stats><attention>30</attention> de daño de ataque<br><attention>550</attention> de vida</stats><br><br><passive>Tiranía</passive><br>Obtienes un 2.5% de tu <healing>vida adicional</healing> en forma de <scaleAD>daño de ataque</scaleAD>. <br><br><passive>Retribución</passive><br>Obtienes hasta un 12% de <scaleAD>daño de ataque</scaleAD> adicional según el porcentaje de vida que te falte. </mainText>",
+    "cost": 3300,
+    "from": [
+      "2021",
+      "2021"
+    ],
+    "into": [],
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 550,
+      "FlatPhysicalDamageMod": 30
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.4708333333333333,
+      "physicalDps": 0.32,
+      "burstAp": 0.0,
+      "burstAd": 0.35500000000000004,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2502": {
+    "id": "2502",
+    "name": "Desesperanza eterna",
+    "description": "<mainText><stats><attention>400</attention> de vida<br><attention>50</attention> de armadura<br><attention>15</attention> de velocidad de habilidades</stats><br><br><passive>Angustia</passive><br>Cada 4 s y mientras estás en combate con campeones, infliges <magicDamage>daño mágico</magicDamage> a los campeones enemigos cercanos y <healing>te curas un 250%</healing> del daño infligido.</mainText>",
+    "cost": 2800,
+    "from": [
+      "1031",
+      "3067",
+      "1028"
+    ],
+    "into": [],
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatArmorMod": 50
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.8250000000000001,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2503": {
+    "id": "2503",
+    "name": "Antorcha de fuego negro",
+    "description": "<mainText><stats><attention>80</attention> de poder de habilidad<br><attention>600</attention> de maná<br><attention>20</attention> de velocidad de habilidades</stats><br><br><passive>Llamarada maligna</passive><br>Lanzar habilidades de daño inflige <magicDamage>daño mágico adicional</magicDamage> durante 3 s.<br><br><passive>Fuego negro</passive><br>Por cada campeón enemigo, monstruo épico o monstruo gigante que se vea afectado por tu <passive>Llamarada maligna</passive>, obtienes un <scaleAP>4% de poder de habilidad</scaleAP>. </mainText>",
+    "cost": 2800,
+    "from": [
+      "3802",
+      "2508"
+    ],
+    "into": [],
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 80
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.7166666666666666,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2504": {
+    "id": "2504",
+    "name": "Rookern kaénico",
+    "description": "<mainText><stats><attention>400</attention> de vida<br><attention>80</attention> de resistencia mágica<br><attention>100%</attention> de regeneración de vida básica</stats><br><br><passive>Perdición del mago</passive><br>Tras 15 s sin recibir daño mágico, obtienes un <shield>escudo mágico</shield>. </mainText>",
+    "cost": 2900,
+    "from": [
+      "3211",
+      "1057"
+    ],
+    "into": [],
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen"
+    ],
+    "stats": {
+      "FlatSpellBlockMod": 80,
+      "FlatHPPoolMod": 400
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 1.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.06,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2508": {
+    "id": "2508",
+    "name": "Cenizas predestinadas",
+    "description": "<mainText><stats><attention>30</attention> de poder de habilidad</stats><br><br><passive>Inflamar</passive><br>Las habilidades de daño infligen <magicDamage>15 de daño mágico adicional</magicDamage> durante 3 s.<br>Inflige <magicDamage>45 de daño mágico adicional</magicDamage> a los monstruos.</mainText>",
+    "cost": 900,
+    "from": [
+      "1052"
+    ],
+    "into": [
+      "2503",
+      "6653"
+    ],
+    "tags": [
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 30
+    },
+    "depth": 2,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.425,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2510": {
+    "id": "2510",
+    "name": "Amanecer y anochecer",
+    "description": "<mainText><stats><attention>300</attention> de vida<br><attention>70</attention> de poder de habilidad<br><attention>20</attention> de velocidad de habilidades<br><attention>25%</attention> de velocidad de ataque</stats><br><br><passive>Hoja encantada</passive> (0 s)<br>Tras usar una habilidad, tu siguiente ataque inflige <magicDamage>0 de daño mágico</magicDamage> adicional <OnHit>al golpear</OnHit> y aplica efectos <OnHit>al golpear</OnHit> durante un periodo prolongado.</mainText>",
+    "cost": 3100,
+    "from": [
+      "3057",
+      "1026",
+      "3067",
+      "1042"
+    ],
+    "into": [],
+    "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 300,
+      "FlatMagicDamageMod": 70,
+      "PercentAttackSpeedMod": 0.25
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.32499999999999996,
+      "physicalDps": 0.35000000000000003,
+      "burstAp": 0.6583333333333333,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.1,
+      "antiHeal": 0.0
+    }
+  },
+  "2512": {
+    "id": "2512",
+    "name": "Dardos rastreademonios",
+    "description": "<mainText><stats><attention>45%</attention> de velocidad de ataque<br><attention>25%</attention> de probabilidad de impacto crítico<br><attention>4%</attention> de velocidad de movimiento</stats><br><br><passive>Vigilia nocturna</passive><br>Otorga 30 de velocidad de habilidad definitiva.<br><br><passive>Andanada inicial</passive><br>Tras lanzar tu definitiva, tus siguientes 3 ataques básicos obtienen un <attackSpeed>50% de velocidad de ataque</attackSpeed> y asestan impactos críticos, que infligen un 80% de tu daño de impacto crítico normal, durante 8 s. Si un ataque fuera a infligir un impacto crítico, inflige un <trueDamage>15% de daño verdadero adicional</trueDamage> en su lugar.</mainText>",
+    "cost": 2650,
+    "from": [
+      "3086",
+      "3144"
+    ],
+    "into": [],
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "PercentAttackSpeedMod": 0.45,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.635,
+      "burstAp": 0.0,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2517": {
+    "id": "2517",
+    "name": "Hambre insaciable",
+    "description": "<mainText><stats><attention>60</attention> de daño de ataque<br><attention>5%</attention> de omnisucción<br><attention>20%</attention> de tenacidad</stats><br><br><passive>Hambruna</passive><br>Otorga 0 de velocidad de habilidades.<br><br><passive>Festín</passive><br>Cuando un campeón al que has infligido daño en los últimos 3 s muere, otorga un <omnivamp>15% de omnisucción</omnivamp> durante 8 s. </mainText>",
+    "cost": 3000,
+    "from": [
+      "3133",
+      "1037"
+    ],
+    "into": [],
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.52,
+      "burstAp": 0.0,
+      "burstAd": 0.63,
+      "sustain": 0.32,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2520": {
+    "id": "2520",
+    "name": "Quiebrabastiones",
+    "description": "<mainText><stats><attention>55</attention> de daño de ataque<br><attention>22</attention> de letalidad<br><attention>15</attention> de velocidad de habilidades</stats><br><br><passive>Carga moldeada</passive> (0 s)<br>Infligir daño con habilidades a un campeón o monstruo épico inflige <trueDamage>0 de daño verdadero</trueDamage> adicional.<br><br><passive>Sabotaje</passive><br>Al eliminar a un campeón al que has infligido daño en los últimos 3 s, otorga Sabotaje durante 90 s. Mientras tienes Sabotaje, tu siguiente ataque contra un monstruo épico o torretas inflige <trueDamage>0 de daño verdadero</trueDamage> adicional a lo largo de 3 s. </mainText>",
+    "cost": 3200,
+    "from": [
+      "2020",
+      "3134"
+    ],
+    "into": [],
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.4866666666666667,
+      "burstAp": 0.0,
+      "burstAd": 0.7641666666666667,
+      "sustain": 0.0,
+      "antiTank": 0.18,
+      "antiHeal": 0.0
+    }
+  },
+  "2522": {
+    "id": "2522",
+    "name": "Actualizador",
+    "description": "<mainText><stats><attention>90</attention> de poder de habilidad<br><attention>300</attention> de maná<br><attention>10</attention> de velocidad de habilidades</stats><br><br><active>Maná hecho realidad</active> (0 s)<br>Durante 8 s, tu maná se potencia. Mientras está potenciado, tus habilidades cuestan un 100% de maná adicional; obtienes un 0 de daño, escudos y curaciones adicionales con habilidades; y los enfriamientos de las habilidades básicas son un 30% más rápidos.</mainText>",
+    "cost": 3100,
+    "from": [
+      "3802",
+      "1026"
+    ],
+    "into": [],
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMPPoolMod": 300,
+      "FlatMagicDamageMod": 90
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.0,
+      "burstAp": 0.7749999999999999,
+      "burstAd": 0.0,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  },
+  "2523": {
+    "id": "2523",
+    "name": "Óptica hextech C44",
+    "description": "<mainText><stats><attention>55</attention> de daño de ataque<br><attention>25%</attention> de probabilidad de impacto crítico</stats><br><br><passive>Magnificación</passive><br>Inflige hasta un 10% de daño adicional con ataques, según la distancia a la que se encuentre el enemigo (daño máximo a 600 de alcance).<br><br><passive>Puntería arcana</passive><br>Cuando un campeón al que has infligido daño en los últimos 3 s muere, otorga 100 de alcance de ataque adicional durante 6 s.</mainText>",
+    "cost": 2800,
+    "from": [
+      "1037",
+      "6670",
+      "1036"
+    ],
+    "into": [],
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ],
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 55
+    },
+    "depth": 3,
+    "signals": {
+      "tankiness": 0.0,
+      "physicalDps": 0.7316666666666667,
+      "burstAp": 0.0,
+      "burstAd": 0.5841666666666666,
+      "sustain": 0.0,
+      "antiTank": 0.0,
+      "antiHeal": 0.0
+    }
+  }
+}
