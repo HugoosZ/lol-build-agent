@@ -4,6 +4,9 @@ import { extractVersionFromPath, fileExists, loadJson, findLatestFile, cleanOldF
 const URLItems_Signals = "https://ddragon.hugo-rojas1.workers.dev/items-signals"
 const URLChamps = "https://ddragon.hugo-rojas1.workers.dev/champs-data"
 
+// Estado interno: se usa para no disparar múltiples refreshes a la vez
+let _refreshingSignals = false;
+
 
 export async function getDataFromLastVersion() {
   try {
@@ -38,55 +41,87 @@ export async function getDataFromLastVersion() {
 }
 
 
+/**
+ * Fetch items-signals desde el worker ddragon (SSE), parsea y guarda local.
+ * Retorna la data o null si falla.
+ */
+async function fetchAndSaveSignals() {
+  // Obtener version para nombrar el archivo
+  const { version } = await getDataFromLastVersion();
+  const itemsPath = `data/ddragon/items.with-signals-${version}.json`;
+
+  const res = await fetch(URLItems_Signals);
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  const text = await res.text();
+
+  const lines = text.split("\n");
+  let jsonStr = null;
+  let foundMarker = false;
+
+  for (const line of lines) {
+    if (foundMarker && line.startsWith("data: ")) {
+      jsonStr = line.slice(6);
+      break;
+    }
+    if (line.includes("---RESULT---")) {
+      foundMarker = true;
+    }
+  }
+
+  if (!jsonStr) {
+    throw new Error("No se encontró JSON en la respuesta de items-signals");
+  }
+
+  const data = JSON.parse(jsonStr);
+  await saveJson(itemsPath, data);
+  await cleanOldFiles("data/ddragon", "items.with-signals-", `items.with-signals-${version}.json`);
+  return data;
+}
+
+
+/**
+ * Devuelve items con signals.
+ * Siempre intenta devolver data local primero (instantáneo).
+ * Si no hay local, hace el fetch bloqueante.
+ * Si hay local, dispara un refresh en background para la próxima vez.
+ */
 export async function getAllItemsWithSignals() {
-  const itemsPath = `data/ddragon/items.with-signals.json`;
+  const localPath = await findLatestFile("data/ddragon", "items.with-signals-");
+  const local = localPath ? await loadJson(localPath).catch(() => null) : null;
 
+  if (local) {
+    // Hay data local → devolver inmediatamente, refrescar en background
+    refreshSignalsInBackground();
+    return local;
+  }
+
+  // No hay data local → toca esperar el fetch
+  console.log(`[ddragon] Sin data local de items-signals, esperando fetch...`);
   try {
-    // 1. Fetch desde el worker ddragon (SSE stream)
-    const res = await fetch(URLItems_Signals);
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`);
-    }
-
-    const text = await res.text();
-
-    // El stream tiene formato: data: [logs]\n\n ... data: ---RESULT---\n\n data: {json}\n\n
-    const lines = text.split("\n");
-    let jsonStr = null;
-    let foundMarker = false;
-
-    for (const line of lines) {
-      if (foundMarker && line.startsWith("data: ")) {
-        jsonStr = line.slice(6);
-        break;
-      }
-      if (line.includes("---RESULT---")) {
-        foundMarker = true;
-      }
-    }
-
-    if (!jsonStr) {
-      throw new Error("No se encontró JSON en la respuesta de items-signals");
-    }
-
-    const data = JSON.parse(jsonStr);
-
-    // Guardar local para fallback futuro
-    await saveJson(itemsPath, data);
-    await cleanOldFiles("data/ddragon", "items.with-signals", "items.with-signals.json");
-
-    return data;
+    return await fetchAndSaveSignals();
   } catch (err) {
-    console.warn(`[ddragon] items-signals API falló: ${err.message}. Buscando data local...`);
-
-    const local = await loadJson(itemsPath).catch(() => null);
-    if (local) {
-      console.log(`[ddragon] Usando items-signals local: ${itemsPath}`);
-      return local;
-    }
-
     throw new Error(`API no disponible y no hay data local: ${err.message}`);
   }
+}
+
+
+/**
+ * Dispara el refresh de signals en background (no bloquea).
+ * Si ya hay uno corriendo, no hace nada.
+ */
+export function refreshSignalsInBackground() {
+  if (_refreshingSignals) return;
+  _refreshingSignals = true;
+
+  console.log(`[ddragon] Refresh de items-signals en background...`);
+
+  fetchAndSaveSignals()
+    .then(() => console.log(`[ddragon] items-signals actualizados en background`))
+    .catch((err) => console.warn(`[ddragon] Refresh background falló: ${err.message}`))
+    .finally(() => { _refreshingSignals = false; });
 }
 
 

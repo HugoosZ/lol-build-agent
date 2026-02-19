@@ -10,6 +10,7 @@ import { handleFrontend } from "./routes/frontend.js";
 import { handleRecommend } from "./routes/recommend.js";
 import { handleCompareItems } from "./routes/compareItems.js";
 import { handleMatchStatus } from "./routes/matchStatus.js";
+import { refreshSignalsInBackground } from "./services/ddragon.js";
 
 const PORT = process.env.PORT || 3000;
 
@@ -51,4 +52,6 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
 	console.log(`🚀 Server running at http://localhost:${PORT}`);
+	// Al iniciar, refrescar signals en background para tener data fresca
+	refreshSignalsInBackground();
 });
