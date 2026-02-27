@@ -1,0 +1,5 @@
+{
+	"watch": ["workers"],
+	"ignore": ["data/**"],
+	"ext": "js,mjs,cjs,json"
+}
